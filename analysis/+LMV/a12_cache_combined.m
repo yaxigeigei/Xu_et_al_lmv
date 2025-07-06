@@ -51,13 +51,11 @@ for recIdx = 1 : height(srcTb)
     
     % Find linking positions
     LMV.Linker.LM.ComputeLinkingScores(ce);
-    % posTb = LMV.Linker.LM.FindLinkedPositions(ce);
     
     
     s = struct;
     s.recId = string(recId);
     s.ce = ce;
-    % s.posTb = posTb;
     s.triTb = seqData.triTb;
     sPf{recIdx} = s;
     

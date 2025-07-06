@@ -322,7 +322,7 @@ classdef SE
                 
                 % Construct time matrix
                 preStimEvts = {'cue1On', 'cue1Off'}; % events preceeding stim
-                if ~any(isnan(tt.cue2On))
+                if ismember('cue2On', tt.Properties.VariableNames) && ~any(isnan(tt.cue2On))
                     periDelayEvts = {'stimOff', 'cue2On', 'cue2Off', 'cue3On'}; % events preceeding repetition
                 else
                     periDelayEvts = {'stimOff', 'cue3On'}; % events preceeding repetition

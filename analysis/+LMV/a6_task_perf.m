@@ -1,6 +1,6 @@
 %% Quantify LMV performance across subjects
 
-anaDir = LMV.Data.GetAnalysisDir('task_perf');
+anaDir = LMV.Data.GetAnalysisDir('task');
 srcTb = LMV.Data.FindSource([]);
 
 %%
@@ -14,14 +14,6 @@ for i = 1 : height(srcTb)
     % Load se
     se = NP.SE.LoadSession(srcTb.path{i});
     se = LMV.SE.Transform(se);
-    
-    % % Split tasks and keep LMV only
-    % seTaskTb = NP.SE.SplitConditions(se, 'conditionVars', {'taskName'});
-    % disp(seTaskTb);
-    % se = seTaskTb.se(seTaskTb.taskName=="lmv");
-    % if isempty(se)
-    %     continue
-    % end
     
     % Compute average trial time
     rt = se.GetReferenceTime('taskTime');
@@ -103,14 +95,13 @@ stimText = ["all" stimText];
 f = MPlot.Figure(8223); clf
 f.WindowState = 'maximized';
 tl = tiledlayout('flow');
-var2plot = ["repAccuracy", "repConsistency", "includeRate", "relativeProdRate", "cue2stim", "stimDur", "delayDur", "RT", "prodDur"];
+var2plot = ["cue2stim", "stimDur", "delayDur", "RT", "prodDur", "relativeProdRate", "repAccuracy", "repConsistency", "includeRate"];
 for i = 1 : numel(var2plot)
-    ax = nexttile();
+    ax = nexttile;
     x = 1 : numel(stimIdList);
     Y = perfTb.(var2plot(i));
     m = mean(Y, 'omitnan');
     plot(x', Y, 'Color', [0 0 0 .15]); hold on
-%     plot(x, m, 'Color', 'k', 'LineWidth', 2);
     boxplot(Y);
     xticks(x);
     xticklabels(stimText);

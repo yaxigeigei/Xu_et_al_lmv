@@ -1,6 +1,33 @@
 classdef Sparsity
     
     methods(Static)
+        % 
+        
+        function PlotKurtosis(ce, S)
+            % Plot the kurtosis of population activity
+            
+            % Reshape vector
+            respTb = ce.GetTable("resp");
+            t = respTb.time{1};
+            S = reshape(S, [], height(respTb));
+            
+            plot(t, S); hold on
+            ax = gca;
+            
+            colNames = {'cue1', 'stim', 'prod', 'cue3'};
+            cc = LMV.Param.GetTaskPhaseColors(colNames);
+            NP.TaskBaseClass.PlotEventWindows(ax, ce, 1, t([1 end])', colNames, 'YRange', ax.YLim, 'Colors', cc, 'Alpha', 0.1, 'Text', false);
+            
+            ax.Title.String = "Population sparseness";
+            % ax.XTick = [];
+            % ax.YTick = [];
+            % ax.XLabel.String = [];
+            % ax.YLabel.String = [];
+            % axis off
+        end
+        
+        
+        % not in use
         function [scores, F] = ComputeScores(Y, fs)
             % Compute sparsity scores over a range of frequencies
             % 
@@ -180,58 +207,6 @@ classdef Sparsity
             % Plot raster
             MPlot.Figure(123); clf
             LMV.Overview.SessionFromCache(clusTb.clusId(ind), 'DataSource', 'm2');
-        end
-        
-        % not in use
-        function [kerC, kerCS] = MakeCenterCenterSurroundFilterBanks(fs, kerSD)
-            % 
-            
-            if ~exist('kerSD', 'var')
-                kerSD = flip(logspace(log10(.05), log10(1.5), 20));
-            end
-            kerSize = max(kerSD)*3*2; % 3 STD for both sides, sec
-            nKer = numel(kerSD);
-            
-            for i = nKer : -1 : 1
-%                 % Create center (Gaussian) filter
-%                 [~, C] = MNeuro.Filter1([], fs, 'gaussian', kerSD(i), kerSize);
-%                 
-%                 % Create center-surround (Ricker) filter by taking the second derivative
-%                 CS = -del2(C);
-%                 CS = CS / sum(CS(CS>0)); % normalize total positive area
-                
-                % 
-                [~, S] = MNeuro.Filter1([], fs, 'gaussian', kerSD(i)*4, kerSize);
-                [~, C] = MNeuro.Filter1([], fs, 'gaussian', kerSD(i), kerSize);
-                CS = C - S;
-                CS = CS / sum(CS(CS>0));
-                
-                kerC(:,i) = C;
-                kerCS(:,i) = CS;
-            end
-        end
-        
-        function [S, T, F] = ApplyFilterBanks(Y, tOrFs, filterBank)
-            % 
-            % 
-            %   [S, T, F] = CenterCenterSurroundTransform(Y, tOrFs)
-            % 
-            
-            if isscalar(tOrFs)
-                fs = tOrFs;
-            else
-                fs = 1 / diff(tOrFs(1:2));
-            end
-            
-            nKer = size(filterBank, 2);
-            S = zeros(nKer, numel(Y));
-            
-            for i = 1 : nKer
-                S(i,:) = MNeuro.Filter1(Y, fs, 'custom', filterBank(:,i));
-            end
-            
-            T = (1:size(S,2))' / fs;
-            F = (1:nKer)';
         end
         
     end

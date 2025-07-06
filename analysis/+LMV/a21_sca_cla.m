@@ -20,9 +20,6 @@ sData = arrayfun(@load, fullfile(cacheDir, srcTb.recId+".mat"));
 % Task phase responsiveness
 sTest = LMV.Resp.LoadPhaseResponseTest();
 
-% Linker groups
-lkTb = LMV.Linker.LoadClusTb();
-
 %% 
 
 for i = 1 : numel(sData)

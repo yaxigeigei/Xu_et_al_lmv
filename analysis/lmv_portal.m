@@ -19,6 +19,7 @@ LMV.a5_phone_stats;
 LMV.a5_aai_stats;
 
 % Task performance
+LMV.a6_task_stats;
 LMV.a6_task_perf;
 
 %% Task phase responsiveness
@@ -46,17 +47,13 @@ LMV.a9_sent_kw;
 LMV.a9_kw_stats;
 LMV.a9_kw_examples;
 
-% Sentence decoding
+% Unit-level sentence decoding
 LMV.a9_sent_cla;
 LMV.a9_cla_perf; % LMV.a9_inspect;
 
-% Sentence RSA
-LMV.a9_sent_rsa;
-LMV.a9_rsa_perf;
-
-% % Sentence preference
-% LMV.a14_sent_tuning;
-% LMV.a14_sent_corr;
+% % Sentence RSA
+% LMV.a9_sent_rsa;
+% LMV.a9_rsa_perf;
 
 % % Population sentence decoding
 % LMV.b4_make_ce;
@@ -90,47 +87,7 @@ LMV.a8_fpa;
 LMV.a7_m1_movie; % movie for M1 sentence responses
 % LMV.a7_m2_movie; % movie for M2 session responses
 
-%% Figures 2-3: Linker clusters
-
-% Prepare input
-LMV.a12_morph_se;       % morph prod to stim
-LMV.a12_morph_qc;       % quality control of time morphing
-LMV.a12_compute_peth;   % compute sentence PETHs
-LMV.a12_cache_seq;      % cache peri-phone sequences by recordings (for plotting)
-
-% Model linker transformation
-LMV.a12_fit_lm;
-
-% Process linking results
-LMV.a12_hc;             % create clusTb with hierarchical clustering results
-LMV.a12_m2_peth;        % add m2 PETHs to clusTb
-LMV.a12_cache_combined; % cache combined results by recordings
-LMV.a12_find_pos;       % add posTb to clusTb
-LMV.a12_positions;      % extract linked positions
-
-% Overall responses
-LMV.a12_lib_profile;
-% LMV.a12_lib_raster;
-LMV.a12_lib_peth;
-
-% Examples
-LMV.a12_examples;
-
-% Bridge
-% LMV.a19_resp_heatmaps;
-% LMV.a19_corr_delay;
-
-% Movies
-LMV.a20_mirror_play;
-LMV.a20_bridge_play;
-LMV.a20_mirror_tone;
-
-%% Figure 4: Linker origins
-
-LMV.a12_spatial;
-LMV.a12_waveform;
-
-%% Figure 5: Population activity
+%% Figure 2: Population dynamics
 
 % Prepare response data
 LMV.a16_compute_sen_resp;
@@ -145,14 +102,73 @@ LMV.a16_plot_lib;
 LMV.a16_compute_metrics;
 LMV.a16_latent;
 
-% Loadings of mirror and bridge cells
-LMV.a16_loading;
+% Sentence decoding from latent dynamics
+% LMV.a21_sca_cla;
 
-% Sentence decoding
+% Sparseness of coding in contributing units
+LMV.a24_unit_sparsness;
+LMV.a24_sca_time_sparseness;
+LMV.a24_pop_sparseness;
+
+%% Figures 3: Linker clusters
+
+% Prepare input
+LMV.a12_morph_se;       % morph prod to stim
+LMV.a12_morph_qc;       % quality control of time morphing
+LMV.a12_compute_peth;   % compute sentence PETHs
+LMV.a12_cache_seq;      % cache peri-phoneme sequences (for plotting)
+
+% Model linker transformation
+LMV.a12_fit_lm;
+
+% Hierarchical clustering
+LMV.a12_hc;             % run hierarchical clustering and save link clusTb
+LMV.a12_peak_stats;
+
+% Process linking results
+LMV.a12_m2_peth;        % add m2 PETHs to linker clusTb
+LMV.a12_cache_combined; % cache combined result (ce, seqData, RF)
+LMV.a12_find_pos;       % extract linked positions and save posTb
+
+% Libraries of plots for all linker units
+LMV.a12_lib_profile;
+LMV.a12_lib_raster;
+LMV.a12_lib_peth;
+
+% Rasters, overlays, PETHs of example units
+LMV.a12_examples;
+
+% Movies
+LMV.a20_mirror_play;
+LMV.a20_bridge_play;
+LMV.a20_mirror_tone;
+
+% Sentence decoding from linker populations
 LMV.a21_compute_trial_resp;
 LMV.a21_resp_cla; % LMV.a21_resp_cla_jobs;
-% LMV.a21_sca_cla;
 LMV.a21_perf;
+
+% Loadings of mirror and bridge cells in SCA factors
+LMV.a16_linker_loading;
+
+% Other bridge specific analyses
+% LMV.a19_resp_heatmaps;
+% LMV.a19_corr_delay;
+
+%% Figure 4: RNN modeling
+
+% Re-plotting
+LMV.a23_synaptic_vars;
+LMV.a23_sim_linker;
+LMV.a23_sim_time_shift;
+
+% Observed response time shift
+LMV.a23_resp_time_shift;
+
+%% Figure 5: Linker origins
+
+LMV.a12_spatial;
+LMV.a12_waveform;
 
 %% Figure 6: Speech encoding
 
@@ -202,10 +218,18 @@ LMV.a13_example_phone;
 LMV.a13_seq_mod;
 
 return
-%% Contrastive learning
+%% Chunking
 
-LMV.a18_cache_seq;
-LMV.a18_extract_feat;
+LMV.b17_chunking;
+
+%% Similarity learning
+
+% Export data and metadata to python
+LMV.a22_export_data;
+
+% Old contrastive learning
+% LMV.a18_cache_seq;
+% LMV.a18_extract_feat;
 
 %% Sequence decoding
 
@@ -219,7 +243,7 @@ LMV.b4_cla_perf;
 LMV.b4_reg_speech;
 LMV.b4_reg_perf;
 
-%% Sparsity
+%% Unit-level firing sparsity
 
 % Quantify phasic vs non-phasic responses
 LMV.a11_phasic;

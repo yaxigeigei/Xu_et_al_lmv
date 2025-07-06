@@ -21,26 +21,6 @@ clusTb = clusTb(isRegion & isResp, :);
 % Sentence-averaged responses
 load(fullfile(LMV.Data.GetAnalysisDir, "data", "ce_m2_ex3_sentence-avg.mat"), 'ce');
 
-% %% Load SCA data
-% 
-% % Source data
-% load(fullfile(LMV.Data.GetAnalysisDir, "pop_dynamics", "ce_m2_ex3_sentence-avg.mat"), 'ce');
-% 
-% % Unit info
-% clusTb = py.pandas.read_pickle(fullfile(anaDir, "df", "clus.pkl"));
-% clusTb = table(clusTb);
-% isRegion = clusTb.region == region;
-% isResp = any(clusTb{:,4:end-1}, 2);
-% clusTb = clusTb(isRegion & isResp, :);
-% 
-% % Load SCA output
-% scaTbs = LMV.SCA.LoadResults(fullfile(anaDir, "computed_sca", "sca_"+region+".mat"), nComp);
-% regTb = table;
-% regTb.region = region;
-% regTb = [regTb vertcat(scaTbs{:})];
-% regTb = LMV.SCA.EnrichResultTable(regTb);
-% 
-
 %% Find preferred sentences for SCA components
 
 % Sort components

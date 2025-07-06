@@ -373,7 +373,7 @@ classdef Fig
             % 
             
             p = inputParser;
-            p.addParameter("MinScore", 0, @isnumeric);
+            p.addParameter("MinScore", LMV.Linker.scoreTh, @isnumeric);
             p.addParameter("SentenceMask", true(size(sPETH.stimId)), @islogical);
             p.addParameter("ShowNonLinked", true, @islogical);
             p.addParameter("ShowText", true, @islogical);

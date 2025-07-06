@@ -34,7 +34,7 @@ parquetwrite(fullfile(anaDir, "clusTb.parquet"), clusTb(:,colMask), ...
     'VariableCompression', 'uncompressed', 'VariableEncoding', 'plain');
 
 % Run python scirpt
-% \babble\lmv\venn\venn_task_phase_resp.py
+% \babble\python\venn\venn_task_phase_resp.py
 
 return
 %% Plot model weights of selected units for inspection

@@ -710,7 +710,7 @@ classdef LM
         function PlotDendrogram(sHC, cTb, colorBy, varargin)
             % Make an interactive dendrogram of kernels
             % 
-            %   PlotDendrogram(ce, colorBy)
+            %   PlotDendrogram(sHC, cTb, colorBy, varargin)
             % 
             
             p = inputParser;
@@ -806,8 +806,9 @@ classdef LM
                 else
                     cRib = @lines;
                 end
-                MPlot.GroupRibbon(lb, [-2 -1]*hRib, cRib, 'Groups', unique(lb));
-                ax.YLim(1) = -2*hRib;
+                [xc, yc] = MPlot.GroupRibbon(lb, [-2 -1]*hRib, cRib, 'Groups', unique(lb));
+                text(xc, yc-hRib, string(unique(lb)));
+                ax.YLim(1) = -3*hRib;
             end
             
             % Plot kernel heatmap

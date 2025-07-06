@@ -1,6 +1,6 @@
 %% Transform each se such that the prod times are aligned to stim times
 
-cacheDir = LMV.Data.GetAnalysisDir("linker", 'se_m11');
+cacheDir = LMV.Data.GetAnalysisDir("data", 'se_m11');
 srcTb = LMV.Data.FindSource([]);
 
 %% Make morphed se

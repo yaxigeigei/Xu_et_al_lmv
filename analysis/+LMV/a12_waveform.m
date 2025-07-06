@@ -1,7 +1,7 @@
 %% Spatial distributions of linker units
 
 mdlName = "smooth_lm";
-anaDir = LMV.Data.GetAnalysisDir("linker", mdlName);
+anaDir = LMV.Data.GetAnalysisDir("linker", mdlName, "origin");
 
 %% Load data
 

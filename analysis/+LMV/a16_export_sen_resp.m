@@ -1,13 +1,12 @@
 %% Export unit PETHs as Pandas dataframes
 
-outDir = LMV.Data.GetAnalysisDir("pop_dynamics", "sca", "df");
-srcTb = LMV.Data.FindSource([]);
+ceVer = "ce_m2_ex3_sentence-avg";
+outDir = LMV.Data.GetAnalysisDir("data", strrep(ceVer, "ce_", "pkl_"));
 
 %% Load data
 
 % Combined M2 sentence PETHs
-ceVer = "ce_m2_ex3_sentence-avg";
-load(fullfile(LMV.Data.GetAnalysisDir, "pop_dynamics", ceVer+".mat"), 'ce');
+load(fullfile(LMV.Data.GetAnalysisDir, "data", ceVer+".mat"), 'ce');
 
 % Load responsiveness
 rTest = LMV.Resp.LoadPhaseResponseTest();
@@ -23,15 +22,22 @@ clusTb.hcGroup(ismissing(clusTb.hcGroup)) = "other";
 
 %% Save dataframes
 
-[respTb, semTb] = ce.GetTable("resp", "sem");
+[respTb, semTb, ttTb, tvTb] = ce.GetTable("resp", "sem", "taskTime", "taskValue");
+
+taskTb = [ ...
+    tvTb(:, ["stimId", "stimText"]), ...
+    ttTb(:, ["cue1On", "cue1Off", "stimMatchOn", "stimMatchOff", "cue3On", "cue3Off", "prodMatchOn", "prodMatchOff"]), ...
+    ];
 
 clusDf = py.pandas.DataFrame(clusTb);
 respDf = py.pandas.DataFrame(respTb);
 semDf = py.pandas.DataFrame(semTb);
+taskDf = py.pandas.DataFrame(taskTb);
 
 clusDf.to_pickle(fullfile(outDir, "clus.pkl"));
 respDf.to_pickle(fullfile(outDir, "resp.pkl"));
 semDf.to_pickle(fullfile(outDir, "sem.pkl"));
+taskDf.to_pickle(fullfile(outDir, "task.pkl"));
 
 return
 %% Check if the input was extracted correctly

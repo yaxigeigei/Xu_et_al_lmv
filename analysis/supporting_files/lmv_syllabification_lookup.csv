@@ -1,0 +1,726 @@
+word,blick_score,word_freq,syllabification,num_syllables
+[laugh],2.055,4.66,NONE,-1
+[sigh],1.05,3.95,NONE,-1
+a,7.497,7.36,"{o: empty, n: AH [st:0 ln:short], c: empty}",1
+about,4.704,6.4,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: B , n: AW [st:1 ln:long], c: T }",2
+above,5.917999999999999,5.2,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: B , n: AH [st:1 ln:short], c: V }",2
+accept,-1,4.85,"{o: empty, n: AE [st:0 ln:short], c: K } {o: S , n: EH [st:1 ln:short], c: P T }",2
+accordion,1.951,3.09,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: K , n: AO [st:1 ln:short], c: R } {o: D , n: IY [st:0 ln:short], c: empty} {o: empty, n: AH [st:0 ln:short], c: N }",4
+action,0.271,5.25,"{o: empty, n: AE [st:1 ln:short], c: K } {o: SH , n: AH [st:0 ln:short], c: N }",2
+ad,0.488,4.76,"{o: empty, n: AE [st:1 ln:short], c: D }",1
+add,0.488,5.09,"{o: empty, n: AE [st:1 ln:short], c: D }",1
+address,3.643,4.91,"{o: empty, n: AE [st:1 ln:short], c: empty} {o: D R , n: EH [st:2 ln:short], c: S }",2
+adjustable,1.8360000000000003,3.6,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: JH , n: AH [st:1 ln:short], c: empty} {o: S T , n: AH [st:0 ln:short], c: empty} {o: B , n: AH [st:0 ln:short], c: L }",4
+afloat,3.573,3.33,"{o: empty, n: AH [st:0 ln:short], c: F } {o: L , n: OW [st:1 ln:long], c: T }",2
+after,3.1870000000000003,6.11,"{o: empty, n: AE [st:1 ln:short], c: F } {o: T , n: ER [st:0 ln:long], c: empty}",2
+afterwards,20.500999999999998,4.42,"{o: empty, n: AE [st:1 ln:short], c: F } {o: T , n: ER [st:0 ln:long], c: empty} {o: W , n: ER [st:0 ln:long], c: D Z }",3
+again,2.857,5.7,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: G , n: EH [st:1 ln:short], c: N }",2
+ah,3.3609999999999998,4.63,"{o: empty, n: AA [st:1 ln:short], c: empty}",1
+air,0,5.37,"{o: empty, n: EH [st:1 ln:short], c: R }",1
+all,1.05,6.52,"{o: empty, n: AO [st:1 ln:short], c: L }",1
+alone,3.2020000000000004,5.16,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: L , n: OW [st:1 ln:long], c: N }",2
+alright,5.103999999999999,4.42,"{o: empty, n: AO [st:2 ln:short], c: L } {o: R , n: AY [st:1 ln:long], c: T }",2
+alternative,-1,4.71,"{o: empty, n: AO [st:0 ln:short], c: L } {o: T , n: ER [st:1 ln:long], c: empty} {o: N , n: AH [st:0 ln:short], c: empty} {o: T , n: IH [st:0 ln:short], c: V }",4
+always,8.042,5.76,"{o: empty, n: AO [st:1 ln:short], c: L } {o: W , n: EY [st:2 ln:long], c: Z }",2
+am,0,5.78,"{o: empty, n: AE [st:1 ln:short], c: M }",1
+american,0,5.49,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: M , n: EH [st:1 ln:short], c: empty} {o: R , n: AH [st:0 ln:short], c: empty} {o: K , n: AH [st:0 ln:short], c: N }",4
+an,0,6.53,"{o: empty, n: AE [st:1 ln:short], c: N }",1
+and,7.984999999999999,7.41,"{o: empty, n: AH [st:0 ln:short], c: N D }",1
+angry,2.2190000000000003,4.66,"{o: empty, n: AE [st:1 ln:short], c: NG } {o: G R , n: IY [st:0 ln:short], c: empty}",2
+animals,1.327,4.84,"{o: empty, n: AE [st:1 ln:short], c: empty} {o: N , n: AH [st:0 ln:short], c: empty} {o: M , n: AH [st:0 ln:short], c: L Z }",3
+another,5.282,5.74,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: N , n: AH [st:1 ln:short], c: empty} {o: DH , n: ER [st:0 ln:long], c: empty}",3
+answer,1.132,5.17,"{o: empty, n: AE [st:1 ln:short], c: N } {o: S , n: ER [st:0 ln:long], c: empty}",2
+answered,4.628,4.32,"{o: empty, n: AE [st:1 ln:short], c: N } {o: S , n: ER [st:0 ln:long], c: D }",2
+anyone,3.614,5.38,"{o: empty, n: EH [st:1 ln:short], c: empty} {o: N , n: IY [st:0 ln:short], c: empty} {o: W , n: AH [st:2 ln:short], c: N }",3
+anything,5.3309999999999995,5.55,"{o: empty, n: EH [st:1 ln:short], c: empty} {o: N , n: IY [st:0 ln:short], c: empty} {o: TH , n: IH [st:2 ln:short], c: NG }",3
+anyway,4.664,4.91,"{o: empty, n: EH [st:1 ln:short], c: empty} {o: N , n: IY [st:0 ln:short], c: empty} {o: W , n: EY [st:2 ln:long], c: empty}",3
+apart,2.557,4.78,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: P , n: AA [st:1 ln:short], c: R T }",2
+appears,3.479,4.84,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: P , n: IH [st:1 ln:short], c: R Z }",2
+appetite,2.7910000000000004,3.87,"{o: empty, n: AE [st:1 ln:short], c: empty} {o: P , n: AH [st:0 ln:short], c: empty} {o: T , n: AY [st:2 ln:long], c: T }",3
+apple,0,4.76,"{o: empty, n: AE [st:1 ln:short], c: empty} {o: P , n: AH [st:0 ln:short], c: L }",2
+are,0.405,6.74,"{o: empty, n: AA [st:1 ln:short], c: R }",1
+arm,0.839,4.73,"{o: empty, n: AA [st:1 ln:short], c: R M }",1
+around,6.881,5.77,"{o: empty, n: ER [st:0 ln:long], c: empty} {o: empty, n: AW [st:1 ln:long], c: N D }",2
+as,2.961,6.77,"{o: empty, n: AE [st:1 ln:short], c: Z }",1
+ask,1.345,5.34,"{o: empty, n: AE [st:1 ln:short], c: S K }",1
+asleep,4.467,4.36,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: S L , n: IY [st:1 ln:short], c: P }",2
+assail,3.2020000000000004,2.11,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: S , n: EY [st:1 ln:long], c: L }",2
+at,0,6.7,"{o: empty, n: AE [st:1 ln:short], c: T }",1
+ate,1.05,4.34,"{o: empty, n: EY [st:1 ln:long], c: T }",1
+atomic,0.405,3.98,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: T , n: AA [st:1 ln:short], c: empty} {o: M , n: IH [st:0 ln:short], c: K }",3
+awake,4.174,4.14,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: W , n: EY [st:1 ln:long], c: K }",2
+away,4.174,5.62,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: W , n: EY [st:1 ln:long], c: empty}",2
+b,1.1660000000000001,5.35,"{o: B , n: IY [st:1 ln:short], c: empty}",1
+baby,2.183,5.26,"{o: B , n: EY [st:1 ln:long], c: empty} {o: B , n: IY [st:0 ln:short], c: empty}",2
+back,0.116,6.04,"{o: B , n: AE [st:1 ln:short], c: K }",1
+backward,5.715999999999999,3.71,"{o: B , n: AE [st:1 ln:short], c: K } {o: W , n: ER [st:0 ln:long], c: D }",2
+bake,1.1660000000000001,3.91,"{o: B , n: EY [st:1 ln:long], c: K }",1
+balloons,4.645,3.66,"{o: B , n: AH [st:0 ln:short], c: empty} {o: L , n: UW [st:1 ln:short], c: N Z }",2
+baseball,15.713999999999999,4.54,"{o: B , n: EY [st:1 ln:long], c: empty} {o: S B , n: AO [st:1 ln:short], c: L }",2
+basketball,9.223,4.56,"{o: B , n: AE [st:1 ln:short], c: empty} {o: S K , n: AH [st:0 ln:short], c: T } {o: B , n: AO [st:2 ln:short], c: L }",3
+bathe,5.297,3.22,"{o: B , n: EY [st:1 ln:long], c: DH }",1
+bathroom,7.074999999999999,4.54,"{o: B , n: AE [st:1 ln:short], c: empty} {o: TH R , n: UW [st:2 ln:short], c: M }",2
+be,1.1660000000000001,6.79,"{o: B , n: IY [st:1 ln:short], c: empty}",1
+become,3.201,5.4,"{o: B , n: IH [st:0 ln:short], c: empty} {o: K , n: AH [st:1 ln:short], c: M }",2
+bedroom,4.9990000000000006,4.46,"{o: B , n: EH [st:1 ln:short], c: empty} {o: D R , n: UW [st:2 ln:short], c: M }",2
+been,0.116,6.27,"{o: B , n: IH [st:1 ln:short], c: N }",1
+before,3.6890000000000005,5.93,"{o: B , n: IH [st:0 ln:short], c: empty} {o: F , n: AO [st:1 ln:short], c: R }",2
+began,2.9730000000000003,5.07,"{o: B , n: IH [st:0 ln:short], c: empty} {o: G , n: AE [st:1 ln:short], c: N }",2
+below,3.318,5.05,"{o: B , n: IH [st:0 ln:short], c: empty} {o: L , n: OW [st:1 ln:long], c: empty}",2
+birth,3.668,4.77,"{o: B , n: ER [st:1 ln:long], c: TH }",1
+birthday,14.584999999999999,4.76,"{o: B , n: ER [st:1 ln:long], c: TH } {o: D , n: EY [st:2 ln:long], c: empty}",2
+bitter,1.248,4.21,"{o: B , n: IH [st:1 ln:short], c: empty} {o: T , n: ER [st:0 ln:long], c: empty}",2
+black,0.116,5.46,"{o: B L , n: AE [st:1 ln:short], c: K }",1
+blan,0.116,1.53,"{o: B L , n: AE [st:1 ln:short], c: N }",1
+blank,0.729,4.14,"{o: B L , n: AE [st:1 ln:short], c: NG K }",1
+blankets,3.58,3.67,"{o: B L , n: AE [st:1 ln:short], c: NG } {o: K , n: AH [st:0 ln:short], c: T S }",2
+blike,1.1660000000000001,0,NONE,-1
+blue,1.1660000000000001,5.13,"{o: B L , n: UW [st:1 ln:short], c: empty}",1
+body,1.4220000000000002,5.4,"{o: B , n: AA [st:1 ln:short], c: empty} {o: D , n: IY [st:0 ln:short], c: empty}",2
+boss,0.521,4.76,"{o: B , n: AA [st:1 ln:short], c: S }",1
+bother,4.87,4.39,"{o: B , n: AA [st:1 ln:short], c: empty} {o: DH , n: ER [st:0 ln:long], c: empty}",2
+boy,3.249,5.17,"{o: B , n: OY [st:1 ln:long], c: empty}",1
+brain,1.1660000000000001,4.94,"{o: B R , n: EY [st:1 ln:long], c: N }",1
+bran,0.116,3.3,"{o: B R , n: AE [st:1 ln:short], c: N }",1
+bray,1.1660000000000001,3.31,"{o: B R , n: EY [st:1 ln:long], c: empty}",1
+brazil,3.2600000000000002,4.58,"{o: B R , n: AH [st:0 ln:short], c: empty} {o: Z , n: IH [st:1 ln:short], c: L }",2
+bricks,0.116,3.81,"{o: B R , n: IH [st:1 ln:short], c: K S }",1
+broccoli,1.4220000000000002,3.5,"{o: B R , n: AA [st:1 ln:short], c: empty} {o: K , n: AH [st:0 ln:short], c: empty} {o: L , n: IY [st:0 ln:short], c: empty}",3
+broil,3.249,2.44,"{o: B R , n: OY [st:1 ln:long], c: L }",1
+brought,1.1660000000000001,5.16,"{o: B R , n: AO [st:1 ln:short], c: T }",1
+buddy,1.9500000000000002,4.4,"{o: B , n: AH [st:1 ln:short], c: empty} {o: D , n: IY [st:0 ln:short], c: empty}",2
+bullet,2.846,4.24,"{o: B , n: UH [st:1 ln:short], c: empty} {o: L , n: AH [st:0 ln:short], c: T }",2
+burning,1.7790000000000001,4.5,"{o: B , n: ER [st:1 ln:long], c: empty} {o: N , n: IH [st:0 ln:short], c: NG }",2
+bushel,3.117,2.79,"{o: B , n: UH [st:1 ln:short], c: empty} {o: SH , n: AH [st:0 ln:short], c: L }",2
+business,1.443,5.56,"{o: B , n: IH [st:1 ln:short], c: Z } {o: N , n: AH [st:0 ln:short], c: S }",2
+but,1.0490000000000002,6.63,"{o: B , n: AH [st:1 ln:short], c: T }",1
+by,1.1660000000000001,6.66,"{o: B , n: AY [st:1 ln:long], c: empty}",1
+byes,2.493,2.72,NONE,-1
+cab,1.782,3.95,"{o: K , n: AE [st:1 ln:short], c: B }",1
+california,3.25,5,"{o: K , n: AE [st:2 ln:short], c: empty} {o: L , n: AH [st:0 ln:short], c: empty} {o: F , n: AO [st:1 ln:short], c: R } {o: N Y , n: AH [st:0 ln:short], c: empty}",4
+came,1.24,5.5,"{o: K , n: EY [st:1 ln:long], c: M }",1
+can,0,6.46,"{o: K , n: AE [st:1 ln:short], c: N }",1
+canada,0,4.97,"{o: K , n: AE [st:1 ln:short], c: empty} {o: N , n: AH [st:0 ln:short], c: empty} {o: D , n: AH [st:0 ln:short], c: empty}",3
+cane,1.05,3.76,"{o: K , n: EY [st:1 ln:long], c: N }",1
+car,0.405,5.45,"{o: K , n: AA [st:1 ln:short], c: R }",1
+careful,3.405,4.59,"{o: K , n: EH [st:1 ln:short], c: R } {o: F , n: AH [st:0 ln:short], c: L }",2
+carrot,0,3.62,"{o: K , n: AE [st:1 ln:short], c: empty} {o: R , n: AH [st:0 ln:short], c: T }",2
+case,1.05,5.55,"{o: K , n: EY [st:1 ln:long], c: S }",1
+cat,0,4.78,"{o: K , n: AE [st:1 ln:short], c: T }",1
+chair,1.576,4.69,"{o: CH , n: EH [st:1 ln:short], c: R }",1
+changes,4.74,5.12,"{o: CH , n: EY [st:1 ln:long], c: N } {o: JH , n: AH [st:0 ln:short], c: Z }",2
+chasing,3.2390000000000003,4.12,"{o: CH , n: EY [st:1 ln:long], c: empty} {o: S , n: IH [st:0 ln:short], c: NG }",2
+chinese,-1,5.01,"{o: CH , n: AY [st:0 ln:long], c: empty} {o: N , n: IY [st:1 ln:short], c: Z }",2
+christmas,0,4.91,"{o: K R , n: IH [st:1 ln:short], c: empty} {o: S M , n: AH [st:0 ln:short], c: S }",2
+churl,2.6260000000000003,1.51,NONE,-1
+circle,1.05,4.55,"{o: S , n: ER [st:1 ln:long], c: empty} {o: K , n: AH [st:0 ln:short], c: L }",2
+cla,3.3609999999999998,2.88,NONE,-1
+clay,1.05,4.29,"{o: K L , n: EY [st:1 ln:long], c: empty}",1
+clerk's,4.159,2.58,"{o: K L , n: ER [st:1 ln:long], c: K S }",1
+clockwork,6.07,3.2,"{o: K L , n: AA [st:1 ln:short], c: K } {o: W , n: ER [st:2 ln:long], c: K }",2
+close,1.05,5.36,"{o: K L , n: OW [st:1 ln:long], c: S }",1
+coat,1.05,4.36,"{o: K , n: OW [st:1 ln:long], c: T }",1
+cold,1.538,5.02,"{o: K , n: OW [st:1 ln:long], c: L D }",1
+color,2.065,4.91,"{o: K , n: AH [st:1 ln:short], c: empty} {o: L , n: ER [st:0 ln:long], c: empty}",2
+colors,6.4,4.46,"{o: K , n: AH [st:1 ln:short], c: empty} {o: L , n: ER [st:0 ln:long], c: Z }",2
+come,0.933,5.78,"{o: K , n: AH [st:1 ln:short], c: M }",1
+comedy,1.306,4.51,"{o: K , n: AA [st:1 ln:short], c: empty} {o: M , n: AH [st:0 ln:short], c: empty} {o: D , n: IY [st:0 ln:short], c: empty}",3
+concert,4.545,4.55,"{o: K , n: AA [st:1 ln:short], c: N } {o: S , n: ER [st:0 ln:long], c: T }",2
+coo,1.05,3.3,"{o: K , n: UW [st:1 ln:short], c: empty}",1
+cooked,2.73,4.11,"{o: K , n: UH [st:1 ln:short], c: K T }",1
+cookies,7.965999999999999,4.12,"{o: K , n: UH [st:1 ln:short], c: empty} {o: K , n: IY [st:0 ln:short], c: Z }",2
+couch,4.54,4.17,"{o: K , n: AW [st:1 ln:long], c: CH }",1
+could,3.218,6.06,"{o: K , n: UH [st:1 ln:short], c: D }",1
+countries,6.1690000000000005,5.13,"{o: K , n: AH [st:1 ln:short], c: N } {o: T R , n: IY [st:0 ln:short], c: Z }",2
+crashed,2.271,4.04,"{o: K R , n: AE [st:1 ln:short], c: SH T }",1
+cuisine,5.1659999999999995,3.81,"{o: K W , n: IH [st:0 ln:short], c: empty} {o: Z , n: IY [st:1 ln:short], c: N }",2
+curl,1.05,3.52,"{o: K , n: ER [st:1 ln:long], c: L }",1
+cyme,1.24,1.5,NONE,-1
+dark,0.405,5.04,"{o: D , n: AA [st:1 ln:short], c: R K }",1
+darned,2.146,2.63,"{o: D , n: AA [st:1 ln:short], c: R N D }",1
+day,1.05,5.95,"{o: D , n: EY [st:1 ln:long], c: empty}",1
+days,2.377,5.61,"{o: D , n: EY [st:1 ln:long], c: Z }",1
+deal,1.05,5.32,"{o: D , n: IY [st:1 ln:short], c: L }",1
+dee,1.05,3.84,"{o: D , n: IY [st:1 ln:short], c: empty}",1
+defend,3.011,4.47,"{o: D , n: IH [st:0 ln:short], c: empty} {o: F , n: EH [st:1 ln:short], c: N D }",2
+delivering,2.243,4.09,"{o: D , n: IH [st:0 ln:short], c: empty} {o: L , n: IH [st:1 ln:short], c: empty} {o: V , n: ER [st:0 ln:long], c: empty} {o: empty, n: IH [st:0 ln:short], c: NG }",4
+depart,2.557,3.67,"{o: D , n: IH [st:0 ln:short], c: empty} {o: P , n: AA [st:1 ln:short], c: R T }",2
+department,1.224,5.23,"{o: D , n: IH [st:0 ln:short], c: empty} {o: P , n: AA [st:1 ln:short], c: R T } {o: M , n: AH [st:0 ln:short], c: N T }",3
+desk,1.345,4.43,"{o: D , n: EH [st:1 ln:short], c: S K }",1
+did,0.488,5.96,"{o: D , n: IH [st:1 ln:short], c: D }",1
+didn't,0,5.68,"{o: D , n: IH [st:1 ln:short], c: empty} {o: D , n: AH [st:0 ln:short], c: N T }",2
+differently,2.091,4.23,"{o: D , n: IH [st:1 ln:short], c: empty} {o: F R , n: AH [st:0 ln:short], c: N } {o: T L , n: IY [st:0 ln:short], c: empty}",3
+dikes,4.159,2.55,"{o: D , n: AY [st:1 ln:long], c: K S }",1
+discard,-1,3.37,"{o: D , n: IH [st:0 ln:short], c: empty} {o: S K , n: AA [st:1 ln:short], c: R D }",2
+disturb,4.984,3.56,"{o: D , n: IH [st:0 ln:short], c: empty} {o: S T , n: ER [st:1 ln:long], c: B }",2
+do,1.05,6.35,"{o: D , n: UW [st:1 ln:short], c: empty}",1
+doctor,1.537,4.9,"{o: D , n: AA [st:1 ln:short], c: K } {o: T , n: ER [st:0 ln:long], c: empty}",2
+does,3.8939999999999997,5.74,"{o: D , n: AH [st:1 ln:short], c: Z }",1
+dog,2.693,5.1,"{o: D , n: AO [st:1 ln:short], c: G }",1
+dollar,1.537,4.59,"{o: D , n: AA [st:1 ln:short], c: empty} {o: L , n: ER [st:0 ln:long], c: empty}",2
+dollars,5.872,4.78,"{o: D , n: AA [st:1 ln:short], c: empty} {o: L , n: ER [st:0 ln:long], c: Z }",2
+dome,1.24,3.9,"{o: D , n: OW [st:1 ln:long], c: M }",1
+don't,1.05,6.2,"{o: D , n: OW [st:1 ln:long], c: N T }",1
+done,0.933,5.58,"{o: D , n: AH [st:1 ln:short], c: N }",1
+door,1.05,5.08,"{o: D , n: AO [st:1 ln:short], c: R }",1
+doused,2.436,2.62,"{o: D , n: AW [st:1 ln:long], c: S T }",1
+down,2.436,5.88,"{o: D , n: AW [st:1 ln:long], c: N }",1
+drinks,1.432,4.43,"{o: D R , n: IH [st:1 ln:short], c: NG K S } {o: D R , n: IH [st:1 ln:short], c: NG K S }",2
+driven,0.498,4.54,"{o: D R , n: IH [st:1 ln:short], c: empty} {o: V , n: AH [st:0 ln:short], c: N }",2
+dry,1.05,4.74,"{o: D R , n: AY [st:1 ln:long], c: empty}",1
+dull,0.933,3.94,"{o: D , n: AH [st:1 ln:short], c: L }",1
+e,1.05,5.28,"{o: empty, n: IY [st:1 ln:short], c: empty}",1
+early,1.951,5.43,"{o: empty, n: ER [st:1 ln:long], c: empty} {o: L , n: IY [st:0 ln:short], c: empty}",2
+earth,3.552,5.06,"{o: empty, n: ER [st:1 ln:long], c: TH }",1
+earth's,10.731000000000002,3.83,"{o: empty, n: ER [st:1 ln:long], c: TH S }",1
+east,1.05,5.16,"{o: empty, n: IY [st:1 ln:short], c: S T }",1
+eat,1.05,5.13,"{o: empty, n: IY [st:1 ln:short], c: T }",1
+eh,5.683,4.26,"{o: empty, n: EH [st:1 ln:short], c: empty}",1
+eight,1.05,5.02,"{o: empty, n: EY [st:1 ln:long], c: T }",1
+either,5.399,5.33,"{o: empty, n: IY [st:1 ln:short], c: empty} {o: DH , n: ER [st:0 ln:long], c: empty}",2
+electrical,0,4.42,"{o: empty, n: IH [st:0 ln:short], c: empty} {o: L , n: EH [st:1 ln:short], c: K } {o: T R , n: IH [st:0 ln:short], c: empty} {o: K , n: AH [st:0 ln:short], c: L }",4
+ell,0,2.99,"{o: empty, n: EH [st:1 ln:short], c: L }",1
+else,0,5.38,"{o: empty, n: EH [st:1 ln:short], c: L S }",1
+em,0,4.57,"{o: empty, n: EH [st:1 ln:short], c: M }",1
+emotions,2.6479999999999997,4.37,"{o: empty, n: IH [st:0 ln:short], c: empty} {o: M , n: OW [st:1 ln:long], c: empty} {o: SH , n: AH [st:0 ln:short], c: N Z }",3
+en,0,4.5,"{o: empty, n: EH [st:1 ln:short], c: N }",1
+end,0.488,5.68,"{o: empty, n: EH [st:1 ln:short], c: N D }",1
+energy,2.8200000000000003,5.23,"{o: empty, n: EH [st:1 ln:short], c: empty} {o: N , n: ER [st:0 ln:long], c: empty} {o: JH , n: IY [st:0 ln:short], c: empty}",3
+enna,0,2.03,NONE,-1
+enough,5.140000000000001,5.54,"{o: empty, n: IH [st:0 ln:short], c: empty} {o: N , n: AH [st:1 ln:short], c: F }",2
+episodic,0.405,3,"{o: empty, n: EH [st:2 ln:short], c: empty} {o: P , n: AH [st:0 ln:short], c: empty} {o: S , n: AA [st:1 ln:short], c: empty} {o: D , n: IH [st:0 ln:short], c: K }",4
+equation,4.140000000000001,4.02,"{o: empty, n: IH [st:0 ln:short], c: K } {o: W , n: EY [st:1 ln:long], c: empty} {o: ZH , n: AH [st:0 ln:short], c: N }",3
+er,8.629,4.24,"{o: empty, n: ER [st:0 ln:long], c: empty}",1
+even,1.548,5.99,"{o: empty, n: IY [st:1 ln:short], c: empty} {o: V , n: IH [st:0 ln:short], c: N }",2
+everyone,4.696999999999999,5.47,"{o: empty, n: EH [st:1 ln:short], c: empty} {o: V R , n: IY [st:0 ln:short], c: empty} {o: W , n: AH [st:2 ln:short], c: N }",3
+evident,0.498,3.99,"{o: empty, n: EH [st:1 ln:short], c: empty} {o: V , n: AH [st:0 ln:short], c: empty} {o: D , n: AH [st:0 ln:short], c: N T }",3
+excited,1.538,4.74,"{o: empty, n: IH [st:0 ln:short], c: K } {o: S , n: AY [st:1 ln:long], c: empty} {o: T , n: AH [st:0 ln:short], c: D }",3
+excuse,3.778,4.56,"{o: empty, n: IH [st:0 ln:short], c: K } {o: S K Y , n: UW [st:1 ln:short], c: S }",2
+eyes,2.377,5.21,"{o: empty, n: AY [st:1 ln:long], c: Z }",1
+facts,4.041,4.72,"{o: F , n: AE [st:1 ln:short], c: K T S }",1
+fall,1.421,5.13,"{o: F , n: AO [st:1 ln:short], c: L }",1
+FALSE,1.421,4.63,"{o: F , n: AO [st:1 ln:short], c: L S }",1
+false_,1.421,0,NONE,-1
+far,0.776,5.5,"{o: F , n: AA [st:1 ln:short], c: R }",1
+fast,0.371,5.13,"{o: F , n: AE [st:1 ln:short], c: S T }",1
+fault,1.421,4.64,"{o: F , n: AO [st:1 ln:short], c: L T }",1
+feel,1.421,5.67,"{o: F , n: IY [st:1 ln:short], c: L }",1
+feet,1.421,4.99,"{o: F , n: IY [st:1 ln:short], c: T }",1
+fell,0.371,4.85,"{o: F , n: EH [st:1 ln:short], c: L }",1
+felt,0.371,5.13,"{o: F , n: EH [st:1 ln:short], c: L T }",1
+fence,0.371,4.21,"{o: F , n: EH [st:1 ln:short], c: N S }",1
+few,1.9969999999999999,5.6,"{o: F Y , n: UW [st:1 ln:short], c: empty}",1
+fiddles,1.698,2.32,"{o: F , n: IH [st:1 ln:short], c: empty} {o: D , n: AH [st:0 ln:short], c: L Z }",2
+fiercely,1.272,3.35,"{o: F , n: IH [st:1 ln:short], c: R } {o: S L , n: IY [st:0 ln:short], c: empty}",2
+fine,1.421,5.23,"{o: F , n: AY [st:1 ln:long], c: N }",1
+fingers,7.156000000000001,4.5,"{o: F , n: IH [st:1 ln:short], c: NG } {o: G , n: ER [st:0 ln:long], c: Z }",2
+finish,2.642,4.91,"{o: F , n: IH [st:1 ln:short], c: empty} {o: N , n: IH [st:0 ln:short], c: SH }",2
+fire,4.423,5.3,"{o: F , n: AY [st:1 ln:long], c: empty} {o: empty, n: ER [st:0 ln:long], c: empty}",2
+fizz,3.332,2.98,"{o: F , n: IH [st:1 ln:short], c: Z }",1
+flame,1.611,4.07,"{o: F L , n: EY [st:1 ln:long], c: M }",1
+flan,0.371,2.48,"{o: F L , n: AE [st:1 ln:short], c: N }",1
+flickered,4.999,2.41,"{o: F L , n: IH [st:1 ln:short], c: empty} {o: K , n: ER [st:0 ln:long], c: D }",2
+football,14.11,5.11,"{o: F , n: UH [st:1 ln:short], c: T } {o: B , n: AO [st:2 ln:short], c: L }",2
+for,1.421,7.01,"{o: F , n: AO [st:1 ln:short], c: R }",1
+forget,4.36,5.06,"{o: F , n: ER [st:0 ln:long], c: empty} {o: G , n: EH [st:1 ln:short], c: T }",2
+formula,1.9969999999999999,4.45,"{o: F , n: AO [st:1 ln:short], c: R } {o: M Y , n: AH [st:0 ln:short], c: empty} {o: L , n: AH [st:0 ln:short], c: empty}",3
+forward,7.020999999999999,5.12,"{o: F , n: AO [st:1 ln:short], c: R } {o: W , n: ER [st:0 ln:long], c: D }",2
+freeze,2.7479999999999998,4.11,"{o: F R , n: IY [st:1 ln:short], c: Z }",1
+from,1.304,6.63,"{o: F R , n: AH [st:1 ln:short], c: M }",1
+fruits,4.272,4.07,"{o: F R , n: UW [st:1 ln:short], c: T S }",1
+fuck,1.304,5.39,"{o: F , n: AH [st:1 ln:short], c: K }",1
+furniture,4.1290000000000004,4.29,"{o: F , n: ER [st:1 ln:long], c: empty} {o: N , n: IH [st:0 ln:short], c: empty} {o: CH , n: ER [st:0 ln:long], c: empty}",3
+future,4.705,5.33,"{o: F Y , n: UW [st:1 ln:short], c: empty} {o: CH , n: ER [st:0 ln:long], c: empty}",2
+ga,4.066,4.14,"{o: G , n: AA [st:1 ln:short], c: empty}",1
+gathered,8.55,4.27,"{o: G , n: AE [st:1 ln:short], c: empty} {o: DH , n: ER [st:0 ln:long], c: D }",2
+gator,2.8869999999999996,3.19,"{o: G , n: EY [st:1 ln:long], c: empty} {o: T , n: ER [st:0 ln:long], c: empty}",2
+gave,2.838,5.25,"{o: G , n: EY [st:1 ln:long], c: V }",1
+get,0.705,6.28,"{o: G , n: EH [st:1 ln:short], c: T }",1
+gir,1.755,2.52,NONE,-1
+girl,1.755,5.38,"{o: G , n: ER [st:1 ln:long], c: L }",1
+girls,3.082,5.17,"{o: G , n: ER [st:1 ln:long], c: L Z }",1
+give,3.4219999999999997,5.71,"{o: G , n: IH [st:1 ln:short], c: V }",1
+go,1.755,6.03,"{o: G , n: OW [st:1 ln:long], c: empty}",1
+god,1.598,5.57,"{o: G , n: AA [st:1 ln:short], c: D }",1
+going,4.2379999999999995,5.94,"{o: G , n: OW [st:1 ln:long], c: empty} {o: empty, n: IH [st:0 ln:short], c: NG }",2
+gone,1.755,5.17,"{o: G , n: AO [st:1 ln:short], c: N }",1
+gonna,1.1099999999999999,5.29,"{o: G , n: AA [st:1 ln:short], c: empty} {o: N , n: AH [st:0 ln:short], c: empty}",2
+good,3.923,6.12,"{o: G , n: UH [st:1 ln:short], c: D }",1
+got,1.1099999999999999,5.91,"{o: G , n: AA [st:1 ln:short], c: T }",1
+got's,3.9610000000000003,1.67,NONE,-1
+gotcha,2.686,3.38,"{o: G , n: AA [st:1 ln:short], c: empty} {o: CH , n: AH [st:0 ln:short], c: empty}",2
+grape,3.02,3.7,"{o: G R , n: EY [st:1 ln:long], c: P }",1
+great,1.755,5.88,"{o: G R , n: EY [st:1 ln:long], c: T }",1
+grinned,1.193,2.87,"{o: G R , n: IH [st:1 ln:short], c: N D }",1
+gut,1.638,4.02,"{o: G , n: AH [st:1 ln:short], c: T }",1
+guy,1.755,5.4,"{o: G , n: AY [st:1 ln:long], c: empty}",1
+ha,3.9190000000000005,4.58,"{o: HH , n: AA [st:1 ln:short], c: empty}",1
+had,1.046,6.33,"{o: HH , n: AE [st:1 ln:short], c: D }",1
+halloween,4.731999999999999,4.16,"{o: HH , n: AE [st:2 ln:short], c: empty} {o: L , n: AH [st:0 ln:short], c: empty} {o: W , n: IY [st:1 ln:short], c: N }",3
+hammer,1.69,4.16,"{o: HH , n: AE [st:1 ln:short], c: empty} {o: M , n: ER [st:0 ln:long], c: empty}",2
+handful,8.167000000000002,4.11,"{o: HH , n: AE [st:1 ln:short], c: N D } {o: F , n: UH [st:2 ln:short], c: L }",2
+happier,2.591,4.06,"{o: HH , n: AE [st:1 ln:short], c: empty} {o: P , n: IY [st:0 ln:short], c: empty} {o: empty, n: ER [st:0 ln:long], c: empty}",3
+happy,1.459,5.35,"{o: HH , n: AE [st:1 ln:short], c: empty} {o: P , n: IY [st:0 ln:short], c: empty}",2
+harder,2.0949999999999998,4.57,"{o: HH , n: AA [st:1 ln:short], c: R } {o: D , n: ER [st:0 ln:long], c: empty}",2
+hate,1.608,5.11,"{o: HH , n: EY [st:1 ln:long], c: T }",1
+have,3.2749999999999995,6.71,"{o: HH , n: AE [st:1 ln:short], c: V }",1
+he,1.608,6.69,"{o: HH , n: IY [st:1 ln:short], c: empty}",1
+he'll,1.608,4.54,"{o: HH , n: IY [st:1 ln:short], c: L }",1
+headache,7.385999999999999,3.97,"{o: HH , n: EH [st:1 ln:short], c: empty} {o: D , n: EY [st:2 ln:long], c: K }",2
+heap,2.873,3.59,"{o: HH , n: IY [st:1 ln:short], c: P }",1
+hear,4.593,5.23,"{o: HH , n: IY [st:1 ln:short], c: R }",1
+heh,6.241,3.67,"{o: HH , n: EH [st:1 ln:short], c: empty}",1
+hela,0.558,2.68,NONE,-1
+hello,3.7600000000000002,4.72,"{o: HH , n: AH [st:0 ln:short], c: empty} {o: L , n: OW [st:1 ln:long], c: empty}",2
+her,9.187,6.3,"{o: HH , n: ER [st:0 ln:long], c: empty}",1
+here,4.593,5.97,"{o: HH , n: IY [st:1 ln:short], c: R }",1
+hey,1.608,5.12,"{o: HH , n: EY [st:1 ln:long], c: empty}",1
+hide,2.096,4.54,"{o: HH , n: AY [st:1 ln:long], c: D }",1
+hill,0.558,4.82,"{o: HH , n: IH [st:1 ln:short], c: L }",1
+him,0.558,6.11,"{o: HH , n: IH [st:1 ln:short], c: M }",1
+his,3.5189999999999997,6.51,"{o: HH , n: IH [st:1 ln:short], c: Z }",1
+holidays,5.0809999999999995,4.22,"{o: HH , n: AA [st:1 ln:short], c: empty} {o: L , n: AH [st:0 ln:short], c: empty} {o: D , n: EY [st:2 ln:long], c: Z }",3
+home,1.798,5.81,"{o: HH , n: OW [st:1 ln:long], c: M }",1
+honest,0.405,4.73,"{o: empty, n: AA [st:1 ln:short], c: empty} {o: N , n: AH [st:0 ln:short], c: S T }",2
+horror,2.74,4.43,"{o: HH , n: AO [st:1 ln:short], c: empty} {o: R , n: ER [st:0 ln:long], c: empty}",2
+horse,1.608,4.76,"{o: HH , n: AO [st:1 ln:short], c: R S }",1
+hospital,4.149,5.07,"{o: HH , n: AA [st:1 ln:short], c: empty} {o: S P , n: IH [st:2 ln:short], c: empty} {o: T , n: AH [st:0 ln:short], c: L }",3
+hot,0.9630000000000001,5.16,"{o: HH , n: AA [st:1 ln:short], c: T }",1
+hotel,5.416,4.95,"{o: HH , n: OW [st:0 ln:long], c: empty} {o: T , n: EH [st:1 ln:short], c: L }",2
+hours,9.773,5.4,"{o: empty, n: AW [st:1 ln:long], c: empty} {o: empty, n: ER [st:0 ln:long], c: Z }",2
+house,2.9939999999999998,5.71,"{o: HH , n: AW [st:1 ln:long], c: S }",1
+how,2.9939999999999998,6.24,"{o: HH , n: AW [st:1 ln:long], c: empty}",1
+hugging,2.809,3.48,"{o: HH , n: AH [st:1 ln:short], c: empty} {o: G , n: IH [st:0 ln:short], c: NG }",2
+huh,7.1739999999999995,4.27,"{o: HH , n: AH [st:1 ln:short], c: empty}",1
+husband,3.422,5,"{o: HH , n: AH [st:1 ln:short], c: Z } {o: B , n: AH [st:0 ln:short], c: N D }",2
+i,1.05,7.09,"{o: empty, n: AY [st:1 ln:long], c: empty}",1
+i'm,1.24,6.15,"{o: empty, n: AY [st:1 ln:long], c: M }",1
+i've,2.133,5.72,"{o: empty, n: AY [st:1 ln:long], c: V }",1
+identify,-1,4.56,"{o: empty, n: AY [st:0 ln:long], c: empty} {o: D , n: EH [st:1 ln:short], c: N } {o: T , n: AH [st:0 ln:short], c: empty} {o: F , n: AY [st:2 ln:long], c: empty}",4
+imp,1.265,3.23,"{o: empty, n: IH [st:1 ln:short], c: M P }",1
+improved,11.033999999999999,4.61,"{o: empty, n: IH [st:0 ln:short], c: M } {o: P R , n: UW [st:1 ln:short], c: V D }",2
+in,7.497,7.27,"{o: empty, n: IH [st:0 ln:short], c: N }",1
+inside,3.69,5.19,"{o: empty, n: IH [st:0 ln:short], c: N } {o: S , n: AY [st:1 ln:long], c: D }",2
+instruments,3.67,4.32,"{o: empty, n: IH [st:1 ln:short], c: N } {o: S T R , n: AH [st:0 ln:short], c: empty} {o: M , n: AH [st:0 ln:short], c: N T S }",3
+iron,7.06,4.74,"{o: empty, n: AY [st:1 ln:long], c: empty} {o: empty, n: ER [st:0 ln:long], c: N }",2
+is,2.961,7.07,"{o: empty, n: IH [st:1 ln:short], c: Z }",1
+it,0,6.95,"{o: empty, n: IH [st:1 ln:short], c: T }",1
+it's,2.851,6.33,"{o: empty, n: IH [st:1 ln:short], c: T S }",1
+japanese,5.316,4.81,"{o: JH , n: AE [st:2 ln:short], c: empty} {o: P , n: AH [st:0 ln:short], c: empty} {o: N , n: IY [st:1 ln:short], c: Z }",3
+jazz,3.7479999999999998,4.31,"{o: JH , n: AE [st:1 ln:short], c: Z }",1
+jobs,7.453,4.98,"{o: JH , n: AA [st:1 ln:short], c: B Z }",1
+join,3.92,5,"{o: JH , n: OY [st:1 ln:long], c: N }",1
+joking,2.45,4.04,"{o: JH , n: OW [st:1 ln:long], c: empty} {o: K , n: IH [st:0 ln:short], c: NG }",2
+ju,1.8370000000000002,3.57,"{o: JH , n: UW [st:1 ln:short], c: empty}",1
+junior,3.545,4.49,"{o: JH , n: UW [st:1 ln:short], c: empty} {o: N Y , n: ER [st:0 ln:long], c: empty}",2
+just,1.7200000000000002,6.43,"{o: JH , n: AH [st:1 ln:short], c: S T }",1
+k,1.05,4.91,"{o: K , n: EY [st:1 ln:long], c: empty}",1
+kept,1.265,5,"{o: K , n: EH [st:1 ln:short], c: P T }",1
+kick,0,4.72,"{o: K , n: IH [st:1 ln:short], c: K }",1
+kicking,0.613,4.16,"{o: K , n: IH [st:1 ln:short], c: empty} {o: K , n: IH [st:0 ln:short], c: NG }",2
+kid,0.488,4.99,"{o: K , n: IH [st:1 ln:short], c: D }",1
+kids,7.818,5.28,"{o: K , n: IH [st:1 ln:short], c: D Z }",1
+kissing,0.613,3.97,"{o: K , n: IH [st:1 ln:short], c: empty} {o: S , n: IH [st:0 ln:short], c: NG }",2
+kitchen,1.576,4.65,"{o: K , n: IH [st:1 ln:short], c: empty} {o: CH , n: AH [st:0 ln:short], c: N }",2
+kits,2.851,3.78,"{o: K , n: IH [st:1 ln:short], c: T S }",1
+knew,1.05,5.2,"{o: N , n: UW [st:1 ln:short], c: empty}",1
+knife,3.1050000000000004,4.41,"{o: N , n: AY [st:1 ln:long], c: F }",1
+know,1.05,6.1,"{o: N , n: OW [st:1 ln:long], c: empty}",1
+l,0,5.18,"{o: empty, n: EH [st:1 ln:short], c: L }",1
+landscapes,11.567,3.72,"{o: L , n: AE [st:1 ln:short], c: N D } {o: S K , n: EY [st:2 ln:long], c: P S }",2
+languages,4.404,4.42,"{o: L , n: AE [st:1 ln:short], c: NG } {o: G W , n: AH [st:0 ln:short], c: empty} {o: JH , n: AH [st:0 ln:short], c: Z }",3
+large,1.806,5.39,"{o: L , n: AA [st:1 ln:short], c: R JH }",1
+lashed,2.271,3.01,"{o: L , n: AE [st:1 ln:short], c: SH T }",1
+late,1.05,5.34,"{o: L , n: EY [st:1 ln:long], c: T }",1
+later,2.182,5.49,"{o: L , n: EY [st:1 ln:long], c: empty} {o: T , n: ER [st:0 ln:long], c: empty}",2
+laugh,2.055,4.66,"{o: L , n: AE [st:1 ln:short], c: F }",1
+lay,1.05,4.64,"{o: L , n: EY [st:1 ln:long], c: empty}",1
+leave,2.133,5.34,"{o: L , n: IY [st:1 ln:short], c: V }",1
+left,2.055,5.62,"{o: L , n: EH [st:1 ln:short], c: F T }",1
+leg,1.643,4.66,"{o: L , n: EH [st:1 ln:short], c: G }",1
+leisure,3.25,3.92,"{o: L , n: EH [st:1 ln:short], c: empty} {o: ZH , n: ER [st:0 ln:long], c: empty}",2
+length,4.816,4.77,"{o: L , n: EH [st:1 ln:short], c: NG K TH } {o: L , n: EH [st:1 ln:short], c: NG K TH }",2
+less,0,5.49,"{o: L , n: EH [st:1 ln:short], c: S }",1
+let,0,5.6,"{o: L , n: EH [st:1 ln:short], c: T }",1
+let's,2.851,5.16,"{o: L , n: EH [st:1 ln:short], c: T S }",1
+level,0.498,5.41,"{o: L , n: EH [st:1 ln:short], c: empty} {o: V , n: AH [st:0 ln:short], c: L }",2
+levels,1.825,4.97,"{o: L , n: EH [st:1 ln:short], c: empty} {o: V , n: AH [st:0 ln:short], c: L Z }",2
+life,3.1050000000000004,5.89,"{o: L , n: AY [st:1 ln:long], c: F }",1
+light,1.05,5.33,"{o: L , n: AY [st:1 ln:long], c: T }",1
+like,1.05,6.41,"{o: L , n: AY [st:1 ln:long], c: K }",1
+likes,4.159,4.73,"{o: L , n: AY [st:1 ln:long], c: K S }",1
+line,1.05,5.49,"{o: L , n: AY [st:1 ln:long], c: N }",1
+lips,1.265,4.35,"{o: L , n: IH [st:1 ln:short], c: P S }",1
+literal,1.132,3.77,"{o: L , n: IH [st:1 ln:short], c: empty} {o: T , n: ER [st:0 ln:long], c: empty} {o: empty, n: AH [st:0 ln:short], c: L }",3
+little,0,5.75,"{o: L , n: IH [st:1 ln:short], c: empty} {o: T , n: AH [st:0 ln:short], c: L }",2
+local,1.05,5.43,"{o: L , n: OW [st:1 ln:long], c: empty} {o: K , n: AH [st:0 ln:short], c: L }",2
+long,1.663,5.81,"{o: L , n: AO [st:1 ln:short], c: NG }",1
+longer,3.5,5.16,"{o: L , n: AO [st:1 ln:short], c: NG } {o: G , n: ER [st:0 ln:long], c: empty}",2
+look,2.73,5.81,"{o: L , n: UH [st:1 ln:short], c: K }",1
+looked,2.73,5.11,"{o: L , n: UH [st:1 ln:short], c: K T }",1
+looks,2.73,5.36,"{o: L , n: UH [st:1 ln:short], c: K S }",1
+loss,1.05,5.07,"{o: L , n: AO [st:1 ln:short], c: S }",1
+lou,1.05,3.94,"{o: L , n: UW [st:1 ln:short], c: empty}",1
+loud,2.924,4.53,"{o: L , n: AW [st:1 ln:long], c: D }",1
+love,3.6499999999999995,5.82,"{o: L , n: AH [st:1 ln:short], c: V }",1
+low,1.05,5.33,"{o: L , n: OW [st:1 ln:long], c: empty}",1
+lucky,1.834,4.77,"{o: L , n: AH [st:1 ln:short], c: empty} {o: K , n: IY [st:0 ln:short], c: empty}",2
+ly,1.05,3.37,"{o: L , n: AY [st:1 ln:long], c: empty}",1
+ma'am,0,4.6,"{o: M , n: AE [st:1 ln:short], c: M }",1
+make,1.05,6.08,"{o: M , n: EY [st:1 ln:long], c: K }",1
+male,1.05,4.89,"{o: M , n: EY [st:1 ln:long], c: L }",1
+mapping,0.613,3.88,"{o: M , n: AE [st:1 ln:short], c: empty} {o: P , n: IH [st:0 ln:short], c: NG }",2
+mare's,4.361,2.08,"{o: M , n: EH [st:1 ln:short], c: R Z }",1
+math,2.5020000000000002,4.45,"{o: M , n: AE [st:1 ln:short], c: TH }",1
+matter,1.132,5.38,"{o: M , n: AE [st:1 ln:short], c: empty} {o: T , n: ER [st:0 ln:long], c: empty}",2
+matters,5.467,4.72,"{o: M , n: AE [st:1 ln:short], c: empty} {o: T , n: ER [st:0 ln:long], c: Z }",2
+may,1.05,5.98,"{o: M , n: EY [st:1 ln:long], c: empty}",1
+maybe,2.067,5.45,"{o: M , n: EY [st:1 ln:long], c: empty} {o: B , n: IY [st:0 ln:short], c: empty}",2
+me,1.05,6.48,"{o: M , n: IY [st:1 ln:short], c: empty}",1
+meant,0,4.94,"{o: M , n: EH [st:1 ln:short], c: N T }",1
+medium,1.951,4.61,"{o: M , n: IY [st:1 ln:short], c: empty} {o: D , n: IY [st:0 ln:short], c: empty} {o: empty, n: AH [st:0 ln:short], c: M }",3
+mell's,1.327,0,NONE,-1
+mercedes,7.417999999999999,3.98,"{o: M , n: ER [st:0 ln:long], c: empty} {o: S , n: EY [st:1 ln:long], c: empty} {o: D , n: IY [st:0 ln:short], c: Z }",3
+met,0,5.09,"{o: M , n: EH [st:1 ln:short], c: T }",1
+mexican,0,4.41,"{o: M , n: EH [st:1 ln:short], c: K } {o: S , n: AH [st:0 ln:short], c: empty} {o: K , n: AH [st:0 ln:short], c: N }",3
+milk,1.159,4.66,"{o: M , n: IH [st:1 ln:short], c: L K }",1
+mind,1.538,5.41,"{o: M , n: AY [st:1 ln:long], c: N D }",1
+misdirection,3.552,2.61,NONE,-1
+missed,0,4.83,"{o: M , n: IH [st:1 ln:short], c: S T }",1
+mm,0,4.65,NONE,-1
+modder,1.537,2,NONE,-1
+modest,0.405,4.03,"{o: M , n: AA [st:1 ln:short], c: empty} {o: D , n: AH [st:0 ln:short], c: S T }",2
+moistened,3.6210000000000004,2.35,"{o: M , n: OY [st:1 ln:long], c: empty} {o: S , n: AH [st:0 ln:short], c: N D }",2
+mollusks,2.569,2.54,"{o: M , n: AA [st:1 ln:short], c: empty} {o: L , n: AH [st:0 ln:short], c: S K S }",2
+monday,1.834,4.8,"{o: M , n: AH [st:1 ln:short], c: N } {o: D , n: IY [st:0 ln:short], c: empty}",2
+month,3.435,5.25,"{o: M , n: AH [st:1 ln:short], c: N TH }",1
+more,1.05,6.36,"{o: M , n: AO [st:1 ln:short], c: R }",1
+most,1.05,6,"{o: M , n: OW [st:1 ln:long], c: S T }",1
+motorcycle,4.516,4.07,"{o: M , n: OW [st:1 ln:long], c: empty} {o: T , n: ER [st:0 ln:long], c: empty} {o: S , n: AY [st:2 ln:long], c: empty} {o: K , n: AH [st:0 ln:short], c: L }",4
+mouse,2.436,4.31,"{o: M , n: AW [st:1 ln:long], c: S }",1
+movie,2.449,5.16,"{o: M , n: UW [st:1 ln:short], c: empty} {o: V , n: IY [st:0 ln:short], c: empty}",2
+much,3.037,6,"{o: M , n: AH [st:1 ln:short], c: CH }",1
+music,2.618,5.52,"{o: M Y , n: UW [st:1 ln:short], c: empty} {o: Z , n: IH [st:0 ln:short], c: K }",2
+musical,2.618,4.51,"{o: M Y , n: UW [st:1 ln:short], c: empty} {o: Z , n: IH [st:0 ln:short], c: empty} {o: K , n: AH [st:0 ln:short], c: L }",3
+my,1.05,6.57,"{o: M , n: AY [st:1 ln:long], c: empty}",1
+n,0,5.15,"{o: empty, n: EH [st:1 ln:short], c: N }",1
+name,1.24,5.61,"{o: N , n: EY [st:1 ln:long], c: M }",1
+natural,2.708,5.11,"{o: N , n: AE [st:1 ln:short], c: empty} {o: CH , n: ER [st:0 ln:long], c: empty} {o: empty, n: AH [st:0 ln:short], c: L }",3
+navigate,3.994,3.68,"{o: N , n: AE [st:1 ln:short], c: empty} {o: V , n: AH [st:0 ln:short], c: empty} {o: G , n: EY [st:2 ln:long], c: T }",3
+near,0,5.29,"{o: N , n: IH [st:1 ln:short], c: R }",1
+neck,0,4.63,"{o: N , n: EH [st:1 ln:short], c: K }",1
+need,1.538,5.97,"{o: N , n: IY [st:1 ln:short], c: D }",1
+never,1.63,5.91,"{o: N , n: EH [st:1 ln:short], c: empty} {o: V , n: ER [st:0 ln:long], c: empty}",2
+night,1.05,5.61,"{o: N , n: AY [st:1 ln:long], c: T }",1
+nighted,1.538,0,NONE,-1
+no,1.05,6.35,"{o: N , n: OW [st:1 ln:long], c: empty}",1
+nobody,11.001000000000001,4.95,"{o: N , n: OW [st:1 ln:long], c: empty} {o: B , n: AA [st:2 ln:short], c: empty} {o: D , n: IY [st:2 ln:short], c: empty}",3
+nobody's,12.328,3.61,"{o: N , n: OW [st:1 ln:long], c: empty} {o: B , n: AA [st:2 ln:short], c: empty} {o: D , n: IY [st:2 ln:short], c: Z }",3
+nodded,0.893,3.41,"{o: N , n: AA [st:1 ln:short], c: empty} {o: D , n: AH [st:0 ln:short], c: D }",2
+noddedly,1.794,0,NONE,-1
+noise,4.460000000000001,4.55,"{o: N , n: OY [st:1 ln:long], c: Z }",1
+none,0.933,4.93,"{o: N , n: AH [st:1 ln:short], c: N }",1
+nora,1.05,3.52,"{o: N , n: AO [st:1 ln:short], c: empty} {o: R , n: AH [st:0 ln:short], c: empty}",2
+not,0.405,6.69,"{o: N , n: AA [st:1 ln:short], c: T }",1
+nothing,3.622,5.55,"{o: N , n: AH [st:1 ln:short], c: empty} {o: TH , n: IH [st:0 ln:short], c: NG }",2
+now,2.436,6.18,"{o: N , n: AW [st:1 ln:long], c: empty}",1
+nuff,2.9880000000000004,2.61,NONE,-1
+o'clock,2.557,4.04,"{o: empty, n: AH [st:0 ln:short], c: K } {o: L , n: AA [st:1 ln:short], c: K }",2
+oatmeal,5.743,3.37,"{o: empty, n: OW [st:1 ln:long], c: T } {o: M , n: IY [st:2 ln:short], c: L }",2
+of,3.6499999999999995,7.4,"{o: empty, n: AH [st:1 ln:short], c: V }",1
+office,1.421,5.4,"{o: empty, n: AO [st:1 ln:short], c: empty} {o: F , n: AH [st:0 ln:short], c: S }",2
+oh,1.05,5.43,"{o: empty, n: OW [st:1 ln:long], c: empty}",1
+ok,11.929999999999998,5.14,"{o: empty, n: OW [st:1 ln:long], c: empty} {o: K , n: EY [st:1 ln:long], c: empty}",2
+okay,6.154,5.06,"{o: empty, n: OW [st:2 ln:long], c: empty} {o: K , n: EY [st:1 ln:long], c: empty}",2
+old,1.538,5.75,"{o: empty, n: OW [st:1 ln:long], c: L D }",1
+on,0.405,6.91,"{o: empty, n: AA [st:1 ln:short], c: N }",1
+one,1.905,6.47,"{o: W , n: AH [st:1 ln:short], c: N }",1
+only,1.951,6.12,"{o: empty, n: OW [st:1 ln:long], c: N } {o: L , n: IY [st:0 ln:short], c: empty}",2
+open,1.05,5.48,"{o: empty, n: OW [st:1 ln:long], c: empty} {o: P , n: AH [st:0 ln:short], c: N }",2
+opposite,1.397,4.62,"{o: empty, n: AA [st:1 ln:short], c: empty} {o: P , n: AH [st:0 ln:short], c: empty} {o: Z , n: AH [st:0 ln:short], c: T }",3
+ops,1.67,3.8,"{o: empty, n: AA [st:1 ln:short], c: P S }",1
+or,1.05,6.54,"{o: empty, n: AO [st:1 ln:short], c: R }",1
+oregon,1.755,4.3,"{o: empty, n: AO [st:1 ln:short], c: empty} {o: R , n: AH [st:0 ln:short], c: empty} {o: G , n: AH [st:0 ln:short], c: N }",3
+other,5.282,6.16,"{o: empty, n: AH [st:1 ln:short], c: empty} {o: DH , n: ER [st:0 ln:long], c: empty}",2
+otherwise,10.372,4.88,"{o: empty, n: AH [st:1 ln:short], c: empty} {o: DH , n: ER [st:0 ln:long], c: empty} {o: W , n: AY [st:2 ln:long], c: Z }",3
+our,5.438,6.14,"{o: empty, n: AW [st:1 ln:long], c: empty} {o: empty, n: ER [st:0 ln:long], c: empty}",2
+out,2.436,6.38,"{o: empty, n: AW [st:1 ln:long], c: T }",1
+outside,13.803999999999998,5.25,"{o: empty, n: AW [st:1 ln:long], c: T } {o: S , n: AY [st:1 ln:long], c: D }",2
+over,2.6799999999999997,6.08,"{o: empty, n: OW [st:1 ln:long], c: empty} {o: V , n: ER [st:0 ln:long], c: empty}",2
+overhead,11.653999999999998,3.93,"{o: empty, n: OW [st:1 ln:long], c: empty} {o: V , n: ER [st:0 ln:long], c: empty} {o: HH , n: EH [st:1 ln:short], c: D }",3
+own,1.05,5.74,"{o: empty, n: OW [st:1 ln:long], c: N }",1
+owner,2.182,4.83,"{o: empty, n: OW [st:1 ln:long], c: empty} {o: N , n: ER [st:0 ln:long], c: empty}",2
+p,1.05,5.13,"{o: P , n: IY [st:1 ln:short], c: empty}",1
+packets,2.851,3.52,"{o: P , n: AE [st:1 ln:short], c: empty} {o: K , n: IH [st:0 ln:short], c: T S }",2
+part,0.405,5.78,"{o: P , n: AA [st:1 ln:short], c: R T }",1
+parts,4.075,5.07,"{o: P , n: AA [st:1 ln:short], c: R T S }",1
+pay,1.05,5.4,"{o: P , n: EY [st:1 ln:long], c: empty}",1
+paying,3.533,4.75,"{o: P , n: EY [st:1 ln:long], c: empty} {o: empty, n: IH [st:0 ln:short], c: NG }",2
+people,1.05,6.25,"{o: P , n: IY [st:1 ln:short], c: empty} {o: P , n: AH [st:0 ln:short], c: L }",2
+perfect,5.064,5.2,"{o: P , n: ER [st:0 ln:long], c: empty} {o: F , n: EH [st:1 ln:short], c: K T }",2
+pet,0,4.45,"{o: P , n: EH [st:1 ln:short], c: T }",1
+phis,0.371,1.41,NONE,-1
+phone,1.421,5.3,"{o: F , n: OW [st:1 ln:long], c: N }",1
+piano,4.28,4.31,"{o: P , n: IY [st:0 ln:short], c: empty} {o: empty, n: AE [st:1 ln:short], c: empty} {o: N , n: OW [st:0 ln:long], c: empty}",3
+pieces,2.377,4.72,"{o: P , n: IY [st:1 ln:short], c: empty} {o: S , n: AH [st:0 ln:short], c: Z }",2
+play,1.05,5.61,"{o: P L , n: EY [st:1 ln:long], c: empty}",1
+plenty,0.901,4.72,"{o: P L , n: EH [st:1 ln:short], c: N } {o: empty , n: IY [st:0 ln:short], c: empty}",2
+plumber,2.065,3.36,"{o: P L , n: AH [st:1 ln:short], c: empty} {o: M , n: ER [st:0 ln:long], c: empty}",2
+pod,0.893,3.71,"{o: P , n: AA [st:1 ln:short], c: D }",1
+point,3.133,5.54,"{o: P , n: OY [st:1 ln:long], c: N T }",1
+police,3.2020000000000004,5.33,"{o: P , n: AH [st:0 ln:short], c: empty} {o: L , n: IY [st:1 ln:short], c: S }",2
+polished,2.676,3.76,"{o: P , n: AA [st:1 ln:short], c: empty} {o: L , n: IH [st:0 ln:short], c: SH T }",2
+poor,2.73,5.09,"{o: P , n: UW [st:1 ln:short], c: R }",1
+potato,6.812,4.11,"{o: P , n: AH [st:0 ln:short], c: empty} {o: T , n: EY [st:1 ln:long], c: empty} {o: T , n: OW [st:2 ln:long], c: empty}",3
+price,1.05,5.23,"{o: P R , n: AY [st:1 ln:long], c: S }",1
+prize,2.377,4.59,"{o: P R , n: AY [st:1 ln:long], c: Z }",1
+proud,2.924,4.78,"{o: P R , n: AW [st:1 ln:long], c: D }",1
+puk,2.73,2.18,NONE,-1
+pull,2.73,4.82,"{o: P , n: UH [st:1 ln:short], c: L }",1
+pulled,3.218,4.67,"{o: P , n: UH [st:1 ln:short], c: L D }",1
+pulling,3.343,4.35,"{o: P , n: UH [st:1 ln:short], c: empty} {o: L , n: IH [st:0 ln:short], c: NG }",2
+push,5.0009999999999994,4.82,"{o: P , n: UH [st:1 ln:short], c: SH }",1
+pushing,3.614,4.44,"{o: P , n: UH [st:1 ln:short], c: empty} {o: SH , n: IH [st:0 ln:short], c: NG }",2
+question,2.548,5.35,"{o: K W , n: EH [st:1 ln:short], c: S } {o: CH , n: AH [st:0 ln:short], c: N }",2
+quiet,3.892,4.65,"{o: K W , n: AY [st:1 ln:long], c: empty} {o: empty, n: AH [st:0 ln:short], c: T }",2
+r,0.405,5.35,"{o: empty, n: AA [st:1 ln:short], c: R }",1
+rag,1.643,3.55,"{o: R , n: AE [st:1 ln:short], c: G }",1
+rain,1.05,4.71,"{o: R , n: EY [st:1 ln:long], c: N }",1
+re,1.05,5.23,"{o: R , n: EY [st:1 ln:long], c: empty}",1
+red,0.488,5.32,"{o: R , n: EH [st:1 ln:short], c: D }",1
+refund,5.552,3.94,"{o: R , n: IH [st:0 ln:short], c: empty} {o: F , n: AH [st:1 ln:short], c: N D }",2
+rehund,4.131,0,NONE,-1
+reject,-1,4.03,"{o: R , n: IH [st:0 ln:short], c: empty} {o: JH , n: EH [st:1 ln:short], c: K T }",2
+rest,0,5.23,"{o: R , n: EH [st:1 ln:short], c: S T }",1
+right,1.05,5.96,"{o: R , n: AY [st:1 ln:long], c: T }",1
+rock,0.405,5.03,"{o: R , n: AA [st:1 ln:short], c: K }",1
+rode,1.538,3.91,"{o: R , n: OW [st:1 ln:long], c: D }",1
+roll,1.05,4.75,"{o: R , n: OW [st:1 ln:long], c: L }",1
+rooms,10.346,4.56,"{o: R , n: UW [st:1 ln:short], c: M Z }",1
+run,0.933,5.49,"{o: R , n: AH [st:1 ln:short], c: N }",1
+running,1.546,5.23,"{o: R , n: AH [st:1 ln:short], c: empty} {o: N , n: IH [st:0 ln:short], c: NG }",2
+s,0,5.86,"{o: empty, n: EH [st:1 ln:short], c: S }",1
+sad,0.488,4.84,"{o: S , n: AE [st:1 ln:short], c: D }",1
+said,0.488,6.01,"{o: S , n: EH [st:1 ln:short], c: D }",1
+salt,1.05,4.6,"{o: S , n: AO [st:1 ln:short], c: L T }",1
+same,1.24,5.8,"{o: S , n: EY [st:1 ln:long], c: M }",1
+sauce,1.05,4.3,"{o: S , n: AO [st:1 ln:short], c: S }",1
+saw,4.006,5.34,"{o: S , n: AO [st:1 ln:short], c: empty}",1
+school,1.05,5.71,"{o: S K , n: UW [st:1 ln:short], c: L }",1
+science,2.92,5.12,"{o: S , n: AY [st:1 ln:long], c: empty} {o: empty, n: AH [st:0 ln:short], c: N S }",2
+screeched,7.615,2.27,"{o: S K R , n: IY [st:1 ln:short], c: CH T }",1
+screwdriver,6.9159999999999995,3.13,"{o: S K R , n: UW [st:1 ln:short], c: empty} {o: D R , n: AY [st:2 ln:long], c: empty} {o: V , n: ER [st:0 ln:long], c: empty}",3
+se,8.23,4.29,"{o: S , n: AW [st:2 ln:long], c: empty} {o: TH , n: IY [st:1 ln:short], c: S T }",2
+search,3.154,4.96,"{o: S , n: ER [st:1 ln:long], c: CH }",1
+see,1.05,6.1,"{o: S , n: IY [st:1 ln:short], c: empty}",1
+seem,1.24,5.08,"{o: S , n: IY [st:1 ln:short], c: M }",1
+seems,10.346,5.24,"{o: S , n: IY [st:1 ln:short], c: M Z }",1
+sees,2.377,4.59,"{o: S , n: IY [st:1 ln:short], c: Z }",1
+seizures,8.635,3.59,"{o: S , n: IY [st:1 ln:short], c: empty} {o: ZH , n: ER [st:0 ln:long], c: Z }",2
+ser,0,3.49,NONE,-1
+seven,0.498,5.08,"{o: S , n: EH [st:1 ln:short], c: empty} {o: V , n: AH [st:0 ln:short], c: N }",2
+sh,15.118999999999998,3.86,NONE,-1
+shadow,7.099,4.44,"{o: SH , n: AE [st:1 ln:short], c: empty} {o: D , n: OW [st:2 ln:long], c: empty}",2
+shaky,2.2220000000000004,3.45,"{o: SH , n: EY [st:1 ln:long], c: empty} {o: K , n: IY [st:0 ln:short], c: empty}",2
+shall,0.271,5.03,"{o: SH , n: AE [st:1 ln:short], c: L }",1
+shapes,5.694999999999999,3.99,"{o: SH , n: EY [st:1 ln:long], c: P S }",1
+she,1.3210000000000002,6.26,"{o: SH , n: IY [st:1 ln:short], c: empty}",1
+shoot,1.3210000000000002,4.73,"{o: SH , n: UW [st:1 ln:short], c: T }",1
+short,1.3210000000000002,5.33,"{o: SH , n: AO [st:1 ln:short], c: R T }",1
+shot,0.676,5.22,"{o: SH , n: AA [st:1 ln:short], c: T }",1
+should,3.489,5.99,"{o: SH , n: UH [st:1 ln:short], c: D }",1
+shouted,3.195,3.78,"{o: SH , n: AW [st:1 ln:long], c: empty} {o: T , n: AH [st:0 ln:short], c: D }",2
+shove,3.9209999999999994,3.66,"{o: SH , n: AH [st:1 ln:short], c: V }",1
+show,1.3210000000000002,5.68,"{o: SH , n: OW [st:1 ln:long], c: empty}",1
+shrugged,10.152000000000001,3.33,"{o: SH R , n: AH [st:1 ln:short], c: G D }",1
+shut,1.2040000000000002,4.78,"{o: SH , n: AH [st:1 ln:short], c: T }",1
+sig,1.643,3.27,"{o: S , n: IH [st:1 ln:short], c: G }",1
+silly,0.901,4.39,"{o: S , n: IH [st:1 ln:short], c: empty} {o: L , n: IY [st:0 ln:short], c: empty}",2
+sis,0,3.63,"{o: S , n: IH [st:1 ln:short], c: S }",1
+six,0,5.29,"{o: S , n: IH [st:1 ln:short], c: K S }",1
+sizes,3.369,4.18,"{o: S , n: AY [st:1 ln:long], c: empty} {o: Z , n: AH [st:0 ln:short], c: Z }",2
+slow,1.05,4.85,"{o: S L , n: OW [st:1 ln:long], c: empty}",1
+small,1.05,5.51,"{o: S M , n: AO [st:1 ln:short], c: L }",1
+snakes,4.159,3.86,"{o: S N , n: EY [st:1 ln:long], c: K S }",1
+snarled,0.893,2.53,"{o: S N , n: AA [st:1 ln:short], c: empty} {o: R , n: AH [st:0 ln:short], c: L D }",2
+snow,1.05,4.66,"{o: S N , n: OW [st:1 ln:long], c: empty}",1
+soak,1.05,3.61,"{o: S , n: OW [st:1 ln:long], c: K }",1
+sofa,1.421,3.81,"{o: S , n: OW [st:1 ln:long], c: empty} {o: F , n: AH [st:0 ln:short], c: empty}",2
+some,0.933,6.2,"{o: S , n: AH [st:1 ln:short], c: M }",1
+someplace,5.6259999999999994,3.14,"{o: S , n: AH [st:1 ln:short], c: M } {o: P L , n: EY [st:2 ln:long], c: S }",2
+something,5.795,5.81,"{o: S , n: AH [st:1 ln:short], c: M } {o: TH , n: IH [st:0 ln:short], c: NG }",2
+something's,10.865,3.39,"{o: S , n: AH [st:1 ln:short], c: M } {o: TH , n: IH [st:0 ln:short], c: NG Z }",2
+sometime,7.989000000000001,4.16,"{o: S , n: AH [st:1 ln:short], c: M } {o: T , n: AY [st:2 ln:long], c: M }",2
+sometimes,14.671,5.28,"{o: S , n: AH [st:0 ln:short], c: M } {o: T , n: AY [st:1 ln:long], c: M Z }",2
+somewhere,7.702999999999999,4.74,"{o: S , n: AH [st:1 ln:short], c: M } {o: W , n: EH [st:2 ln:short], c: R }",2
+sorry,1.306,5.18,"{o: S , n: AA [st:1 ln:short], c: empty} {o: R , n: IY [st:0 ln:short], c: empty}",2
+sounded,2.924,4.12,"{o: S , n: AW [st:1 ln:long], c: N } {o: D , n: AH [st:0 ln:short], c: D }",2
+sour,5.438,3.88,"{o: S , n: AW [st:1 ln:long], c: empty} {o: empty, n: ER [st:0 ln:long], c: empty}",2
+soy,3.133,3.63,"{o: S , n: OY [st:1 ln:long], c: empty}",1
+spanish,2.271,4.73,"{o: S P , n: AE [st:1 ln:short], c: empty} {o: N , n: IH [st:0 ln:short], c: SH }",2
+speed,1.538,5,"{o: S P , n: IY [st:1 ln:short], c: D }",1
+spirit,0,4.79,"{o: S P , n: IH [st:1 ln:short], c: empty} {o: R , n: AH [st:0 ln:short], c: T }",2
+spoon,1.05,3.88,"{o: S P , n: UW [st:1 ln:short], c: N }",1
+sports,4.72,4.94,"{o: S P , n: AO [st:1 ln:short], c: R T S }",1
+square,0.972,4.84,"{o: S K W , n: EH [st:1 ln:short], c: R }",1
+sss,25.391,2.85,NONE,-1
+start,0.405,5.56,"{o: S T , n: AA [st:1 ln:short], c: R T }",1
+states,3.901,5.52,"{o: S T , n: EY [st:1 ln:long], c: T S }",1
+stoneware,5.665000000000001,2.57,"{o: S T , n: OW [st:1 ln:long], c: N } {o: W , n: EH [st:2 ln:short], c: R }",2
+stopped,1.67,4.84,"{o: S T , n: AA [st:1 ln:short], c: P T }",1
+strawberry,5.253,3.72,"{o: S T R , n: AO [st:1 ln:short], c: empty} {o: B , n: EH [st:2 ln:short], c: empty} {o: R , n: IY [st:0 ln:short], c: empty}",3
+strong,1.663,5.22,"{o: S T R , n: AO [st:1 ln:short], c: NG }",1
+student,1.05,5.02,"{o: S T , n: UW [st:1 ln:short], c: empty} {o: D , n: AH [st:0 ln:short], c: N T }",2
+subjects,7.172,4.38,"{o: S , n: AH [st:1 ln:short], c: B } {o: JH , n: IH [st:0 ln:short], c: K T S }",2
+subs,7.194000000000001,3.7,"{o: S , n: AH [st:1 ln:short], c: B Z }",1
+subtract,5.127,3.1,"{o: S , n: AH [st:0 ln:short], c: B } {o: T R , n: AE [st:1 ln:short], c: K T }",2
+such,3.037,5.84,"{o: S , n: AH [st:1 ln:short], c: CH }",1
+suddenly,1.834,4.69,"{o: S , n: AH [st:1 ln:short], c: empty} {o: D , n: AH [st:0 ln:short], c: N } {o: L , n: IY [st:0 ln:short], c: empty}",3
+sunny,1.834,4.07,"{o: S , n: AH [st:1 ln:short], c: empty} {o: N , n: IY [st:0 ln:short], c: empty}",2
+sunrise,6.952999999999999,3.82,"{o: S , n: AH [st:1 ln:short], c: empty} {o: N R , n: AY [st:2 ln:long], c: Z }",2
+sup,2.198,3.56,"{o: S , n: AH [st:1 ln:short], c: P }",1
+sure,3.001,5.67,"{o: SH , n: UH [st:1 ln:short], c: R }",1
+surprise,5.661,4.75,"{o: S , n: ER [st:0 ln:long], c: empty} {o: P R , n: AY [st:1 ln:long], c: Z }",2
+sweet,2.0220000000000002,4.91,"{o: S W , n: IY [st:1 ln:short], c: T }",1
+t,1.05,5.43,"{o: T , n: IY [st:1 ln:short], c: empty}",1
+tail,1.05,4.34,"{o: T , n: EY [st:1 ln:long], c: L }",1
+take,1.05,5.92,"{o: T , n: EY [st:1 ln:long], c: K }",1
+takes,4.159,5.18,"{o: T , n: EY [st:1 ln:long], c: K S }",1
+talk,1.05,5.42,"{o: T , n: AO [st:1 ln:short], c: K }",1
+tapes,5.4239999999999995,3.82,"{o: T , n: EY [st:1 ln:long], c: P S }",1
+tastes,4.72,4.08,"{o: T , n: EY [st:1 ln:long], c: S T S }",1
+tax,0,5.14,"{o: T , n: AE [st:1 ln:short], c: K S }",1
+teacher,3.758,4.88,"{o: T , n: IY [st:1 ln:short], c: empty} {o: CH , n: ER [st:0 ln:long], c: empty}",2
+telephoning,3.3179999999999996,2.2,"{o: T , n: EH [st:1 ln:short], c: empty} {o: L , n: AH [st:0 ln:short], c: empty} {o: F , n: OW [st:2 ln:long], c: empty} {o: N , n: IH [st:0 ln:short], c: NG }",4
+tell,0,5.53,"{o: T , n: EH [st:1 ln:short], c: L }",1
+ten,0,5.05,"{o: T , n: EH [st:1 ln:short], c: N }",1
+ter,1.05,3.26,"{o: T , n: ER [st:1 ln:long], c: empty}",1
+thank,2.689,5.48,"{o: TH , n: AE [st:1 ln:short], c: NG K }",1
+thanks,3.508,5.43,"{o: TH , n: AE [st:1 ln:short], c: NG K S } {o: TH , n: AE [st:1 ln:short], c: NG K S }",2
+that,3.996,7.01,"{o: DH , n: AE [st:1 ln:short], c: T }",1
+that'll,3.996,3.96,"{o: DH , n: AE [st:1 ln:short], c: empty} {o: T , n: AH [st:0 ln:short], c: L }",2
+that's,6.8469999999999995,5.86,"{o: DH , n: AE [st:1 ln:short], c: T S }",1
+the,10.714,7.73,"{o: DH , n: AH [st:0 ln:short], c: empty}",1
+them,3.996,6.19,"{o: DH , n: EH [st:1 ln:short], c: M }",1
+then,3.996,6.07,"{o: DH , n: EH [st:1 ln:short], c: N }",1
+there's,8.357000000000001,5.54,"{o: DH , n: EH [st:1 ln:short], c: R Z }",1
+they,5.046,6.5,"{o: DH , n: EY [st:1 ln:long], c: empty}",1
+they'll,5.046,4.71,"{o: DH , n: EY [st:1 ln:long], c: L }",1
+they're,3.996,5.47,"{o: DH , n: EH [st:1 ln:short], c: R }",1
+they've,6.1290000000000004,4.76,"{o: DH , n: EY [st:1 ln:long], c: V }",1
+thin,2.076,4.47,"{o: TH , n: IH [st:1 ln:short], c: N }",1
+thing,2.689,5.72,"{o: TH , n: IH [st:1 ln:short], c: NG }",1
+think,2.689,6.08,"{o: TH , n: IH [st:1 ln:short], c: NG K }",1
+thinking,3.302,5.24,"{o: TH , n: IH [st:1 ln:short], c: NG } {o: K , n: IH [st:0 ln:short], c: NG }",2
+third,3.614,5.32,"{o: TH , n: ER [st:1 ln:long], c: D }",1
+this,3.996,6.82,"{o: DH , n: IH [st:1 ln:short], c: S }",1
+thought,3.1260000000000003,5.59,"{o: TH , n: AO [st:1 ln:short], c: T }",1
+three,3.1260000000000003,5.78,"{o: TH R , n: IY [st:1 ln:short], c: empty}",1
+thrived,10.958,3.01,"{o: TH R , n: AY [st:1 ln:long], c: V D }",1
+thunder,4.141,4.14,"{o: TH , n: AH [st:1 ln:short], c: N } {o: D , n: ER [st:0 ln:long], c: empty}",2
+tiles,2.377,3.71,"{o: T , n: AY [st:1 ln:long], c: L Z }",1
+time,1.24,6.29,"{o: T , n: AY [st:1 ln:long], c: M }",1
+tine,1.05,2.65,"{o: T , n: AY [st:1 ln:long], c: N }",1
+tink,0.613,2.72,NONE,-1
+tinkled,1.101,1.55,"{o: T , n: IH [st:1 ln:short], c: NG } {o: K , n: AH [st:0 ln:short], c: L D }",2
+tinny,0.901,2.38,"{o: T , n: IH [st:1 ln:short], c: empty} {o: N , n: IY [st:0 ln:short], c: empty}",2
+tiny,1.951,4.62,"{o: T , n: AY [st:1 ln:long], c: empty} {o: N , n: IY [st:0 ln:short], c: empty}",2
+tired,7.548,4.71,"{o: T , n: AY [st:1 ln:long], c: empty} {o: empty, n: ER [st:0 ln:long], c: D }",2
+to,1.05,7.43,"{o: T , n: UW [st:1 ln:short], c: empty}",1
+toast,1.05,3.96,"{o: T , n: OW [st:1 ln:long], c: S T }",1
+toe,1.05,4.07,"{o: T , n: OW [st:1 ln:long], c: empty}",1
+together,5.054,5.46,"{o: T , n: AH [st:0 ln:short], c: empty} {o: G , n: EH [st:1 ln:short], c: empty} {o: DH , n: ER [st:0 ln:long], c: empty}",3
+tones,2.377,3.76,"{o: T , n: OW [st:1 ln:long], c: N Z }",1
+tonk,1.663,2.6,"{o: T , n: AO [st:1 ln:short], c: NG K }",1
+took,2.73,5.51,"{o: T , n: UH [st:1 ln:short], c: K }",1
+tools,2.377,4.59,"{o: T , n: UW [st:1 ln:short], c: L Z }",1
+tray,1.05,3.75,"{o: T R , n: EY [st:1 ln:long], c: empty}",1
+trial,2.92,4.87,"{o: T R , n: AY [st:1 ln:long], c: empty} {o: empty, n: AH [st:0 ln:short], c: L }",2
+triangle,8.097,3.93,"{o: T R , n: AY [st:1 ln:long], c: empty} {o: empty, n: AE [st:2 ln:short], c: NG } {o: G , n: AH [st:0 ln:short], c: L }",3
+TRUE,1.05,5.4,"{o: T R , n: UW [st:1 ln:short], c: empty}",1
+trumpet,0.933,3.58,"{o: T R , n: AH [st:1 ln:short], c: M } {o: P , n: AH [st:0 ln:short], c: T }",2
+try,1.05,5.5,"{o: T R , n: AY [st:1 ln:long], c: empty}",1
+tuesday,3.2779999999999996,4.63,"{o: T , n: UW [st:1 ln:short], c: Z } {o: D , n: IY [st:0 ln:short], c: empty}",2
+twelve,4.175,4.35,"{o: T W , n: EH [st:1 ln:short], c: L V }",1
+twice,2.983,4.84,"{o: T W , n: AY [st:1 ln:long], c: S }",1
+types,5.4239999999999995,4.85,"{o: T , n: AY [st:1 ln:long], c: P S }",1
+typical,0,4.59,"{o: T , n: IH [st:1 ln:short], c: empty} {o: P , n: AH [st:0 ln:short], c: empty} {o: K , n: AH [st:0 ln:short], c: L }",3
+u,1.626,5.11,"{o: Y , n: UW [st:1 ln:short], c: empty}",1
+ugly,2.5389999999999997,4.42,"{o: empty, n: AH [st:1 ln:short], c: G } {o: L , n: IY [st:0 ln:short], c: empty}",2
+uh,6.616,4.26,"{o: empty, n: AH [st:1 ln:short], c: empty}",1
+um,0.933,4.13,"{o: empty, n: AH [st:1 ln:short], c: M }",1
+umm,0.933,3.57,"{o: empty, n: AH [st:1 ln:short], c: M }",1
+under,2.065,5.73,"{o: empty, n: AH [st:1 ln:short], c: N } {o: D , n: ER [st:0 ln:long], c: empty}",2
+understandably,2.149,3.26,"{o: empty, n: AH [st:2 ln:short], c: N } {o: D , n: ER [st:0 ln:long], c: empty} {o: S T , n: AE [st:1 ln:short], c: N } {o: D , n: AH [st:0 ln:short], c: B } {o: L , n: IY [st:0 ln:short], c: empty}",5
+understanded,1.6199999999999999,0,NONE,-1
+understandedly,2.521,0,NONE,-1
+understanding,1.7449999999999999,4.82,"{o: empty, n: AH [st:2 ln:short], c: N } {o: D , n: ER [st:0 ln:long], c: empty} {o: S T , n: AE [st:1 ln:short], c: N } {o: D , n: IH [st:0 ln:short], c: NG }",4
+understandingly,2.033,1.28,"{o: empty, n: AH [st:2 ln:short], c: N } {o: D , n: ER [st:0 ln:long], c: empty} {o: S T , n: AE [st:1 ln:short], c: N } {o: D , n: IH [st:0 ln:short], c: NG } {o: L , n: IY [st:0 ln:short], c: empty}",5
+uneasily,2.9429999999999996,2.33,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: N , n: IY [st:1 ln:short], c: empty} {o: Z , n: AH [st:0 ln:short], c: empty} {o: L , n: IY [st:0 ln:short], c: empty}",4
+uneasy,2.9429999999999996,3.45,"{o: empty, n: AH [st:0 ln:short], c: empty} {o: N , n: IY [st:1 ln:short], c: empty} {o: Z , n: IY [st:0 ln:short], c: empty}",3
+up,2.198,6.39,"{o: empty, n: AH [st:1 ln:short], c: P }",1
+ur,1.05,3.91,"{o: empty, n: ER [st:1 ln:long], c: empty}",1
+us,0.933,6.04,"{o: empty, n: AH [st:1 ln:short], c: S }",1
+use,1.626,5.81,"{o: Y , n: UW [st:1 ln:short], c: S }",1
+usual,9.1,4.62,"{o: Y , n: UW [st:1 ln:short], c: empty} {o: ZH , n: AH [st:0 ln:short], c: empty} {o: W , n: AH [st:0 ln:short], c: L }",3
+utensils,5.093999999999999,3.2,"{o: Y , n: UW [st:0 ln:short], c: empty} {o: T , n: EH [st:1 ln:short], c: N } {o: S , n: AH [st:0 ln:short], c: L Z }",3
+vanished,2.769,3.72,"{o: V , n: AE [st:1 ln:short], c: empty} {o: N , n: IH [st:0 ln:short], c: SH T }",2
+vegetables,8.995999999999999,4.15,"{o: V , n: EH [st:1 ln:short], c: JH } {o: T , n: AH [st:0 ln:short], c: empty} {o: B , n: AH [st:0 ln:short], c: L Z }",3
+vehicles,7.925,4.62,"{o: V , n: IY [st:1 ln:short], c: empty} {o: HH , n: IH [st:0 ln:short], c: empty} {o: K , n: AH [st:0 ln:short], c: L Z }",3
+victory,2.5309999999999997,4.73,"{o: V , n: IH [st:1 ln:short], c: K } {o: T , n: ER [st:0 ln:long], c: empty} {o: empty, n: IY [st:0 ln:short], c: empty}",3
+vision,2.6159999999999997,4.63,"{o: V , n: IH [st:1 ln:short], c: empty} {o: ZH , n: AH [st:0 ln:short], c: N }",2
+volcano,-1,3.76,"{o: V , n: AA [st:0 ln:short], c: L } {o: K , n: EY [st:1 ln:long], c: empty} {o: N , n: OW [st:0 ln:long], c: empty}",3
+wagons,4.204000000000001,3.45,"{o: W , n: AE [st:1 ln:short], c: empty} {o: G , n: AH [st:0 ln:short], c: N Z }",2
+waited,2.51,4.26,"{o: W , n: EY [st:1 ln:long], c: empty} {o: T , n: AH [st:0 ln:short], c: D }",2
+walk,2.0220000000000002,5.08,"{o: W , n: AO [st:1 ln:short], c: K }",1
+walked,2.0220000000000002,4.67,"{o: W , n: AO [st:1 ln:short], c: K T }",1
+wall,2.0220000000000002,5.04,"{o: W , n: AO [st:1 ln:short], c: L }",1
+waller,3.154,3.28,"{o: W , n: AO [st:1 ln:short], c: empty} {o: L , n: ER [st:0 ln:long], c: empty}",2
+wanna,1.377,5.04,"{o: W , n: AA [st:1 ln:short], c: empty} {o: N , n: AH [st:0 ln:short], c: empty}",2
+war,2.0220000000000002,5.46,"{o: W , n: AO [st:1 ln:short], c: R }",1
+was,2.7039999999999997,6.82,"{o: W , n: AA [st:1 ln:short], c: Z }",1
+washing,2.261,4.13,"{o: W , n: AA [st:1 ln:short], c: empty} {o: SH , n: IH [st:0 ln:short], c: NG }",2
+washington,5.736000000000001,5.08,"{o: W , n: AA [st:1 ln:short], c: empty} {o: SH , n: IH [st:0 ln:short], c: NG } {o: T , n: AH [st:0 ln:short], c: N }",3
+wasn't,2.3689999999999998,5.28,"{o: W , n: AA [st:1 ln:short], c: empty} {o: Z , n: AH [st:0 ln:short], c: N T }",2
+water,3.154,5.52,"{o: W , n: AO [st:1 ln:short], c: empty} {o: T , n: ER [st:0 ln:long], c: empty}",2
+we,2.0220000000000002,6.54,"{o: W , n: IY [st:1 ln:short], c: empty}",1
+we'll,2.0220000000000002,4.89,"{o: W , n: IY [st:1 ln:short], c: L }",1
+we're,5.007,5.4,"{o: W , n: IY [st:1 ln:short], c: R }",1
+we've,3.1049999999999995,5.04,"{o: W , n: IY [st:1 ln:short], c: V }",1
+weak,2.0220000000000002,4.66,"{o: W , n: IY [st:1 ln:short], c: K }",1
+weather,5.321,4.87,"{o: W , n: EH [st:1 ln:short], c: empty} {o: DH , n: ER [st:0 ln:long], c: empty}",2
+wednesday,4.019,4.59,"{o: W , n: EH [st:1 ln:short], c: empty} {o: N Z D , n: IY [st:0 ln:short], c: empty}",2
+week,2.0220000000000002,5.56,"{o: W , n: IY [st:1 ln:short], c: K }",1
+well,0.972,6.03,"{o: W , n: EH [st:1 ln:short], c: L }",1
+were,9.600999999999999,6.34,"{o: W , n: ER [st:0 ln:long], c: empty}",1
+west,0.972,5.29,"{o: W , n: EH [st:1 ln:short], c: S T }",1
+wet,0.972,4.54,"{o: W , n: EH [st:1 ln:short], c: T }",1
+what,1.905,6.38,"{o: W , n: AH [st:1 ln:short], c: T }",1
+what's,4.756,5.2,"{o: W , n: AH [st:1 ln:short], c: T S }",1
+when,0.972,6.37,"{o: W , n: EH [st:1 ln:short], c: N }",1
+white,2.0220000000000002,5.51,"{o: W , n: AY [st:1 ln:long], c: T }",1
+who,1.608,6.34,"{o: HH , n: UW [st:1 ln:short], c: empty}",1
+why,2.0220000000000002,5.93,"{o: W , n: AY [st:1 ln:long], c: empty}",1
+wife,4.077,5.23,"{o: W , n: AY [st:1 ln:long], c: F }",1
+will,0.972,6.45,"{o: W , n: IH [st:1 ln:short], c: L }",1
+windshield,12.065999999999999,3.41,"{o: W , n: IH [st:1 ln:short], c: N D } {o: SH , n: IY [st:2 ln:short], c: L D }",2
+with,6.737,6.85,"{o: W , n: IH [st:1 ln:short], c: DH }",1
+word,2.51,5.26,"{o: W , n: ER [st:1 ln:long], c: D }",1
+words,9.84,5.25,"{o: W , n: ER [st:1 ln:long], c: D Z }",1
+work,2.0220000000000002,5.96,"{o: W , n: ER [st:1 ln:long], c: K }",1
+workplaces,10.693999999999999,3.19,"{o: W , n: ER [st:1 ln:long], c: K } {o: P L , n: EY [st:2 ln:long], c: empty} {o: S , n: IH [st:0 ln:short], c: Z }",3
+world,2.51,5.89,"{o: W , n: ER [st:1 ln:long], c: L D }",1
+worried,8.289,4.63,"{o: W , n: ER [st:1 ln:long], c: empty} {o: empty, n: IY [st:0 ln:short], c: D }",2
+worth,4.524,5.16,"{o: W , n: ER [st:1 ln:long], c: TH }",1
+would,4.1899999999999995,6.27,"{o: W , n: UH [st:1 ln:short], c: D }",1
+yeah,9.215,5.37,"{o: Y , n: AE [st:1 ln:short], c: empty}",1
+years,1.903,5.96,"{o: Y , n: IH [st:1 ln:short], c: R Z }",1
+yes,0.576,5.5,"{o: Y , n: EH [st:1 ln:short], c: S }",1
+yet,0.576,5.54,"{o: Y , n: EH [st:1 ln:short], c: T }",1
+you,1.626,6.98,"{o: Y , n: UW [st:1 ln:short], c: empty}",1
+you'll,1.626,5.22,"{o: Y , n: UW [st:1 ln:short], c: L }",1
+you're,3.306,5.87,"{o: Y , n: UH [st:1 ln:short], c: R }",1
+you've,2.7089999999999996,5.13,"{o: Y , n: UW [st:1 ln:short], c: V }",1
+young,2.122,5.43,"{o: Y , n: AH [st:1 ln:short], c: NG }",1
+your,1.626,6.53,"{o: Y , n: AO [st:1 ln:short], c: R }",1
+yourself,7.074,5.31,"{o: Y , n: ER [st:0 ln:long], c: empty} {o: S , n: EH [st:1 ln:short], c: L F }",2

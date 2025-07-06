@@ -35,41 +35,43 @@ sHC.tree = tree;
 sHC.leafOrder = leafOrder;
 clusTb = clusTb(sHC.leafOrder,:);
 
-%% Plot dendrogram with labels
+%% Inspect and annotate groups on dendrogram
 
-% Annotate clusters
+% Annotate groups
 groups = ["mirror", "bridge", "feedback", "other"];
-switch mdlName
-    case "smooth_lm"
-        clusTb.hcGroup = repmat("other", height(clusTb), 1);
-        clusTb.hcGroup(87:111) = "mirror";
-        clusTb.hcGroup(112:127) = "bridge";
-        clusTb.hcGroup(31:44) = "feedback";
-        clusTb.hcGroup = categorical(clusTb.hcGroup, groups, 'Ordinal', true);
-    otherwise
-        hcInd = cluster(tree, 'Cutoff', 1.85, 'Depth', 4);
-        clusTb.hcGroup = hcInd(leafOrder);
-end
-save(fullfile(anaDir, "linker_clusTb.mat"), 'clusTb');
+clusTb.hcGroup = repmat("other", height(clusTb), 1);
+clusTb.hcGroup(87:111) = "mirror";
+clusTb.hcGroup(112:127) = "bridge";
+clusTb.hcGroup(31:44) = "feedback";
+clusTb.hcGroup = categorical(clusTb.hcGroup, groups, 'Ordinal', true);
 
-% Mark clusters
+% Save clusTb
+clusTbPath = fullfile(anaDir, "linker_clusTb.mat");
+if ~isfile(clusTbPath)
+    save(fullfile(anaDir, "linker_clusTb.mat"), 'clusTb');
+else
+    disp("linker_clusTb.mat already exists. Not overwriting.");
+    return
+end
+
+% Mark units
 cidMark = {520200153, 410100463, 350200795};
 cidMark = {460100003, 410100463, 500300446};
 ccMark = [0 1 0; 1 0 0; 0 0 1];
 cidMark = {460100003, 520200153, 410100155, 450100286, 430100161, 430100549};
 ccMark = brewermap(numel(cidMark), 'Set1');
 
-% Make plot
+% Plot dendrogram
 f = MPlot.Figure(112); clf
 tl = tiledlayout("flow");
 tl.Padding = "compact";
 LMV.Linker.LM.PlotDendrogram(sHC, clusTb, 'region', 'Ribbon', 'hcGroup');
 % LMV.Linker.LM.PlotDendrogram(sHC, clusTb, 'region', 'Ribbon', 'hcGroup', 'MarkUnit', cidMark, 'MarkColor', ccMark);
-% MPlot.Paperize(f, .5, .3);
-% exportgraphics(f, fullfile(anaDir, "hc_dendrogram.png"));
-% exportgraphics(f, fullfile(anaDir, "hc_dendrogram.pdf"));
+MPlot.Paperize(f, .5, .3);
+exportgraphics(f, fullfile(anaDir, "hc_dendrogram.png"));
+exportgraphics(f, fullfile(anaDir, "hc_dendrogram.pdf"));
 
-%% Plot group kernel overlay
+%% Plot group kernel overlays
 
 f = MPlot.Figure(116); clf
 tl = tiledlayout(3, 1);
@@ -83,28 +85,6 @@ MPlot.Paperize(f, .3, .8);
 exportgraphics(f, fullfile(anaDir, "hc_group_kernels.png"));
 exportgraphics(f, fullfile(anaDir, "hc_group_kernels.pdf"));
 
-%% Quantify kernel peaks
-
-statsFile = fullfile(anaDir, "kernel_peak_stats.txt");
-fileID = fopen(statsFile, "w");
-
-% Peak stats within each group
-pk = struct;
-for g = ["mirror", "feedback"]
-    m = clusTb.hcGroup==g;
-    [~, pk.(g)] = cellfun(@(x) findpeaks(x.Beta, x.dt, NPeaks=1, SortStr="descend"), clusTb.linker(m));
-    p = signrank(pk.(g));
-    fprintf(fileID, "%s kernel peak time stats:\n", g);
-    fprintf(fileID, "Mean ± SD: %.2f ± %.2f. Median (IQR): %.2f (%.2f-%.2f)\n", mean(pk.(g)), std(pk.(g)), median(pk.(g)), prctile(pk.(g),25), prctile(pk.(g),75));
-    fprintf(fileID, "Different from 0s with p-val = %e\n\n", p);
-end
-
-% Peak difference between mirror and feedback
-p = ranksum(pk.mirror, pk.feedback);
-fprintf(fileID, "mirror and feedback kernel peak time is different at p-val = %e\n", p);
-
-fclose (fileID);
-
 %% Plot exmaple kernels
 
 f = MPlot.Figure(115); clf
@@ -117,6 +97,86 @@ end
 MPlot.Paperize(f, .7, .8);
 exportgraphics(f, fullfile(anaDir, "example_kernels.png"));
 exportgraphics(f, fullfile(anaDir, "example_kernels.pdf"));
+
+%% Identify clusters with similar cutoffs
+
+% Convert leaf indices to original order (before leaf reordering)
+linkerInd = { ...
+    find(clusTb.hcGroup == "mirror"), ...
+    find(clusTb.hcGroup == "bridge"), ...
+    find(clusTb.hcGroup == "feedback")};
+linkerOrigInd = cellfun(@(x) leafOrder(x), linkerInd, 'Uni', false);
+
+% Find the cutoff height for a given cluster
+function h = FindCutoff(tree, nodeInd)
+    m = size(tree, 1) + 1;
+    nodeInd = nodeInd(:);
+    I = [];
+    while true
+        M = ismember(tree(:,1:2), nodeInd);
+        lastI = I;
+        I = find(sum(M,2) == 2);
+        if isempty(I)
+            h = tree(lastI,3);
+            break
+        end
+        isLinked = ismember(nodeInd, tree(I,:));
+        nodeInd = [nodeInd(~isLinked); m+I];
+    end
+end
+
+% Use the mean height to cut clusters
+cutoffs = cellfun(@(x) FindCutoff(tree, x), linkerOrigInd);
+meanCutoff = mean(cutoffs);
+
+fprintf('Group cutoffs: Mirror=%.3f, Bridge=%.3f, Feedback=%.3f\n', cutoffs(1), cutoffs(2), cutoffs(3));
+fprintf('Using mean cutoff = %.3f\n', meanCutoff);
+
+hcInd = cluster(tree, 'Cutoff', meanCutoff, "criterion", "distance");
+clusTbAuto = clusTb;
+clusTbAuto.hcGroup = hcInd(leafOrder);
+
+% Plot dendrogram
+f = MPlot.Figure(113); clf
+tl = tiledlayout("flow");
+tl.Padding = "compact";
+LMV.Linker.LM.PlotDendrogram(sHC, clusTbAuto, 'region', 'Ribbon', 'hcGroup');
+MPlot.Paperize(f, 1, .3);
+exportgraphics(f, fullfile(anaDir, "hc_dendrogram_auto.png"));
+exportgraphics(f, fullfile(anaDir, "hc_dendrogram_auto.pdf"));
+
+%% Plot auto-clustered group kernel overlays
+
+% Get unique cluster IDs and their counts
+uniqueClusters = unique(clusTbAuto.hcGroup);
+clusterCounts = arrayfun(@(x) sum(clusTbAuto.hcGroup == x), uniqueClusters);
+
+% Filter out small clusters
+validClusters = uniqueClusters(clusterCounts > 5);
+qt = prctile(clusterCounts(clusterCounts <= 5), [25 50 75]);
+fprintf("Small clusters have median size of %i (IQR %i-%i) units\n", qt(2), qt(1), qt(3));
+
+% Create figure for auto-clustered kernels
+f = MPlot.Figure(117); clf
+tl = tiledlayout("horizontal");
+tl.Padding = "compact";
+
+% Plot each valid cluster
+for i = 1 : length(validClusters)
+    ax = nexttile;
+    clusterId = validClusters(i);
+    LMV.Linker.LM.PlotKernelOverlay(clusTbAuto.linker(clusTbAuto.hcGroup == clusterId));
+    ax.Title.String = sprintf('Cluster %d (n=%d)', clusterId, clusterCounts(clusterId));
+    ax.YLim = [-2.5 4];
+    if i > 1
+        ax.YLabel.String = [];
+        ax.YTickLabel = [];
+    end
+end
+
+MPlot.Paperize(f, 1.5, .3);
+exportgraphics(f, fullfile(anaDir, "hc_group_kernels_auto.png"));
+exportgraphics(f, fullfile(anaDir, "hc_group_kernels_auto.pdf"));
 
 return
 %% Examine clustering with selected units

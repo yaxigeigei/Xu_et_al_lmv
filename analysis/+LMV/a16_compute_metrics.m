@@ -12,7 +12,7 @@ end
 %% Single-trial responses
 
 % Load SCA input to find factors that zscored the input for SCA
-load(fullfile(LMV.Data.GetAnalysisDir, "pop_dynamics", "ce_m2_ex3_sentence-avg.mat"), 'ce');
+load(fullfile(LMV.Data.GetAnalysisDir, "data", "ce_m2_ex3_sentence-avg.mat"), 'ce');
 respTb = ce.GetTable("resp");
 R = cell2mat(respTb{:,2:end});
 Rm = mean(R, "omitmissing");
@@ -29,7 +29,7 @@ R = R ./ Rsd;
 
 %% Load unit info from pickled DataFrame
 
-clusDf = py.pandas.read_pickle(fullfile(anaDir, "df", "clus.pkl"));
+clusDf = py.pandas.read_pickle(fullfile(LMV.Data.GetAnalysisDir, "data", "pkl_m2_ex3_sentence-avg", "clus.pkl"));
 clusTb = table(clusDf);
 [~, I] = MMath.SortLike(clusTb.clusId, ce.clusTb.clusId);
 clusTb = clusTb(I,:);

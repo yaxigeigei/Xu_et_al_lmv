@@ -114,7 +114,7 @@ for k = 1 : numel(types)
         else
             isSen = any(~isnan(uu{i}.peth.mirrorResp));
         end
-        LMV.Fig.SentenceRespOverlay(ax, uu{i}.peth, uu{i}.posTb, 'SentenceMask', isSen, 'MinScore', 0.1, "ShowNonLinked", false, "ShowScore", false);
+        LMV.Fig.SentenceRespOverlay(ax, uu{i}.peth, uu{i}.posTb, 'SentenceMask', isSen, "ShowNonLinked", false, "ShowScore", false);
     end
 end
 

@@ -27,7 +27,7 @@ for i = 1 : numel(types)
         k = lkInd(j);
         isPos = posTb.clusId == clusTb.clusId(k);
         ax = nexttile;
-        LMV.Fig.SentenceRespOverlay(ax, clusTb(k,:), posTb(isPos,:), "ShowNonLinked", true, "ShowText", true, "MinScore", 0.1);
+        LMV.Fig.SentenceRespOverlay(ax, clusTb(k,:), posTb(isPos,:), "ShowNonLinked", true, "ShowText", true);
         ax.YTickLabel = [];
         ax.XLabel.String = [];
         ax.XTickLabel = [];

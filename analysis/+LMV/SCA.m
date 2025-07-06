@@ -126,7 +126,6 @@ classdef SCA
             % 
             
             % Find the activated sentences
-            % indAct = LMV.SCA.FindActivatedSentences(ce, Z);
             indAct = LMV.SCA.FindActivatedSentences2(Z, CI, ce);
             
             % Reshape latents
@@ -238,9 +237,21 @@ classdef SCA
         end
         
         function [indAct, stimText] = FindActivatedSentences2(Z, CI, ce)
-            % Find activated sentences in each component
+            % Find sentences that are selectively activated in each component.
             % 
             %   [indAct, stimText] = FindActivatedSentences(Z, CI, ce)
+            % 
+            % Inputs
+            %   Z           A times*sentences-by-components array of latent dynamics.
+            %   CI          A times*sentences-by-components-by-2 array for the confidence interval of 
+            %               latent dynamics computed with shuffled sentence labels.
+            %   ce          NP.CodingExplorer object for geting time windows of task phases.
+            % 
+            % Outputs
+            %   indAct      A k-element cell array where k is the number of components.
+            %               Each element contains a vector of sentence indices.
+            %   stimText    A k-element cell array where k is the number of components.
+            %               Each element contains an array of sentence transcript strings.
             % 
             
             % Find locations of significant values
@@ -264,16 +275,16 @@ classdef SCA
             indAct = cell(nComp, 1);
             stimText = cell(nComp, 1);
             for k = 1 : nComp
-                % Get sig mask
+                % Get the mask of values beyond sentence-shuffled null
                 isSig = M(:,:,k);
                 
-                % Find ranges of outlier values
+                % Get the mask of outlier values across sentences
                 isOut = isoutlier(Z(:,:,k), 2);
                 
                 % Combine both criteria
                 m = isSig & isOut;
                 
-                % Ignore periods shorter than 200ms
+                % Iterate through each sentence and ignore segments shorter than 200ms
                 for i = 1 : size(m,2)
                     bb = MMath.Logical2Bounds(m(:,i));
                     for j = 1 : size(bb,1)
@@ -283,7 +294,7 @@ classdef SCA
                 end
                 
                 % Check activation in all phases
-                isActPhase = [any(m(isStim,:)); any(m(isDelay,:)); any(m(isInit,:)); any(m(isProd,:))];
+                isActPhase = [any(m(isStim,:)); any(m(isDelay,:)); any(m(isInit,:)); any(m(isProd,:))]; % phases-by-sentences array
                 
                 indAct{k} =  find(all(isActPhase));
                 stimText{k} = tv.stimText(indAct{k});
